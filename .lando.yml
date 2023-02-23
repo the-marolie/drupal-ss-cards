@@ -1,0 +1,4 @@
+name: drupal-cards
+recipe: drupal10
+config:
+  webroot: docroot
