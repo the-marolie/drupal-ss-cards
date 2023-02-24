@@ -1,0 +1,14 @@
+uuid: fa4d3549-dea7-4c9d-96d4-6e006924d716
+langcode: en
+status: true
+dependencies: {  }
+label: 'Custom Components'
+id: cpt_cat_custom_components
+json_values: '{}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: false
+selectable: true
+class: category-2
+weight: 2

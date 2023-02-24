@@ -1,0 +1,69 @@
+.emi-calculator-container {
+  background: #2e2f3f;
+  max-width: 500px;
+  padding: 25px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  color: #fff;
+}
+.emi-calculator-container .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.emi-calculator-container .row .col.emi-col {
+  background-image: linear-gradient(to right top, #ed8459, #eb7559, #e8675b, #e4575e, #de4863);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.emi-calculator-container .row .col.emi-col h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 2.5px;
+}
+.emi-calculator-container .row .col.emi-col span {
+  font-weight: bold;
+  font-size: 30px;
+}
+.emi-calculator-container .row .col .form-wrapper {
+  background: #212232;
+  padding: 20px;
+  border-radius: 10px;
+}
+.emi-calculator-container .row .col .form-wrapper h4 {
+  text-align: center;
+  letter-spacing: 2.5px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.emi-calculator-container .row .col .form-wrapper .input-wrapper {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.emi-calculator-container .row .col .form-wrapper .input-wrapper .label-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.emi-calculator-container .row .col .form-wrapper .input-wrapper .label-wrapper label {
+  font-size: 18px;
+}
+.emi-calculator-container .row .col .form-wrapper .input-wrapper .label-wrapper input {
+  padding: 10px;
+  color: #000;
+  font-weight: bold;
+  font-size: 15px;
+  outline: none;
+  border: 0;
+  background: #fff;
+}
+.emi-calculator-container .row .col .form-wrapper .input-wrapper input[type=range] {
+  accent-color: #df4b61;
+}

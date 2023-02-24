@@ -1,0 +1,50 @@
+{#
+    /**
+     * @file
+     * A custom loan calcualtor component for site studio.
+     *
+     *
+     *
+     */
+    #}
+{{ attach_library('ss_custom_element_loan_calculator/calculator')}}
+
+<div class="emi-calculator-container">
+	<div class="row">
+		<div class="col emi-col">
+			<h3>EMI Amount</h3>
+			<span id="calculated_emi">0</span>
+		</div>
+		<div class="col">
+			<div class="form-wrapper">
+				<h4>EMI Calculator</h4>
+				<div class="input-wrapper">
+					<div class="label-wrapper">
+						<label>Loan amount</label>
+						<input type="text" value={{ elementSettings.minimum_amount }} class="input-amount" oninput="this.parentNode.parentNode.querySelector('.range-amount').value = this.value"/>
+					</div>
+
+					<input class="range-amount" value={{ elementSettings.minimum_amount }} type="range" name="loan_amount" min={{ elementSettings.minimum_amount }} max={{ elementSettings.maximum_amount }} oninput="this.parentNode.querySelector('.input-amount').value = this.value">
+
+				</div>
+				<div class="input-wrapper">
+					<div class="label-wrapper">
+						<label>Interest rate</label>
+						<input type="text" value={{ elementSettings.minimum_interest_rate }} class="input-interest" oninput="this.parentNode.parentNode.querySelector('.range-interest').value = this.value"/>
+					</div>
+					<input class="range-interest" value={{ elementSettings.minimum_interest_rate }} type="range" name="loan_interest" min={{ elementSettings.minimum_interest_rate }} max={{ elementSettings.maximum_interest_rate }} step="0.5" oninput="this.parentNode.querySelector('.input-interest').value = this.value">
+
+				</div>
+				<div class="input-wrapper">
+					<div class="label-wrapper">
+						<label>Loan tenure</label>
+						<input type="text" value={{ elementSettings.minimum_tenure }} class="input-tenure" oninput="this.parentNode.parentNode.querySelector('.range-tenure').value = this.value"/>
+					</div>
+					<input class="range-tenure" value={{ elementSettings.minimum_tenure }} type="range" name="loan_tenure" min={{ elementSettings.minimum_tenure }}  max={{ elementSettings.maximum_tenure }}  oninput="this.parentNode.querySelector('.input-tenure').value = this.value">
+
+				</div>
+			</div>
+		</div>
+		<div class="col"></div>
+	</div>
+</div>

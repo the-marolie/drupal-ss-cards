@@ -1,0 +1,7 @@
+-
+  type: default_module_package
+  source:
+    module_name: ss_testimonial_component
+    path: /config/site_studio/packages/pack_testimonial_component
+  options:
+    extra-validation: false

@@ -1,0 +1,74 @@
+uuid: 248d8b1f-86b9-4b98-ac92-3f9bb9103d04
+langcode: en
+status: true
+dependencies: {  }
+id: pack_image_slider_component
+label: 'Image slider component'
+description: ''
+excluded_entity_types: '[]'
+settings: |
+  {
+      "7590bfcd-7af4-4e3d-a9e0-b442699b1bf4": {
+          "type": "cohesion_component",
+          "items": {
+              "44d57d55-763f-4387-bef9-8bf41476961e": {
+                  "type": "cohesion_color"
+              },
+              "3b70f9f4-e90f-4a7f-93dd-72fa7c178761": {
+                  "type": "cohesion_color"
+              },
+              "4f832cd5-5a3d-4644-8f48-527d9485324e": {
+                  "type": "cohesion_color"
+              },
+              "70ed2b13-d2df-43e1-8058-5db4e23ceca6": {
+                  "type": "cohesion_color"
+              },
+              "7590bfcd-7af4-4e3d-a9e0-b442699b1bf4": {
+                  "type": "cohesion_component"
+              },
+              "fa4d3549-dea7-4c9d-96d4-6e006924d716": {
+                  "type": "cohesion_component_category"
+              },
+              "ae673854-3151-4f1f-a258-2b0bf71da988": {
+                  "type": "cohesion_custom_style"
+              },
+              "47eb619e-28c5-4f1d-a515-d921efeb766c": {
+                  "type": "cohesion_custom_style"
+              },
+              "f706272e-c6eb-45a2-927a-bfd47abe1c74": {
+                  "type": "cohesion_font_stack"
+              },
+              "bbd647ac-229d-40a5-b288-f17f61fe83bd": {
+                  "type": "cohesion_icon_library"
+              },
+              "247caa3f-796c-4108-94cb-2cdce4775776": {
+                  "type": "file"
+              },
+              "6db1f77c-53cb-469a-9f09-f91f93c76ce2": {
+                  "type": "file"
+              },
+              "8db53f43-d323-4cd3-a252-4731c28f4b34": {
+                  "type": "file"
+              },
+              "bdd2c893-32a0-415f-8db6-efb2690dcf81": {
+                  "type": "file"
+              },
+              "1c4dce8f-853d-4253-afa9-1c3c95e2b9e4": {
+                  "type": "file"
+              },
+              "56814c31-733c-431c-ad47-8271d02ecc48": {
+                  "type": "image_style"
+              },
+              "7ffcea4f-a9de-43c7-832e-fa2e56e992b1": {
+                  "type": "image_style"
+              },
+              "db21bb35-6f11-4994-a2a1-3bc9132ff57d": {
+                  "type": "image_style"
+              },
+              "5e83e15f-09de-4990-98ab-a0989d171185": {
+                  "type": "image_style"
+              }
+          },
+          "checked": true
+      }
+  }

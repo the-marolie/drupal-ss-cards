@@ -2,3 +2,16 @@ name: drupal-cards
 recipe: drupal10
 config:
   webroot: docroot
+  php: '8.1'
+  composer_version: '2'
+tooling:
+  blt:
+    service: appserver
+    cmd: /app/vendor/bin/blt
+services:
+  appserver:
+    config:
+      php: .lando/php.ini
+    overrides:
+      environment:
+        DRUSH_OPTIONS_URI: "https://drupal-cards.lndo.site/"

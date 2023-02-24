@@ -1,0 +1,9 @@
+calculator:
+  version: 1.0
+  css:
+    theme:
+      css/styles.css: {}
+  js:
+    js/script.js: {}
+  dependencies:
+    - core/jquery

@@ -1,0 +1,27 @@
+uuid: c18ea6f2-1f8b-439f-b2a1-23b98a348844
+langcode: en
+status: true
+dependencies: {  }
+label: Blue
+id: blue
+json_values: |
+  {
+      "link": true,
+      "value": {
+          "value": {
+              "hex": "#235d9c",
+              "rgba": "rgba(35, 93, 156, 1)"
+          }
+      },
+      "uid": "blue",
+      "name": "Blue",
+      "class": ".coh-color-blue",
+      "variable": "$coh-color-blue",
+      "inuse": true
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: true
+selectable: true
+weight: 2

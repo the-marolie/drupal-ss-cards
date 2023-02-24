@@ -1,0 +1,27 @@
+uuid: 3f64f260-c2de-4d3c-a505-d298362d9395
+langcode: en
+status: true
+dependencies: {  }
+label: Orange
+id: orange
+json_values: |
+  {
+      "link": true,
+      "value": {
+          "value": {
+              "hex": "#fff1e2",
+              "rgba": "rgba(255, 241, 226, 1)"
+          }
+      },
+      "uid": "orange",
+      "name": "Orange",
+      "class": ".coh-color-orange",
+      "variable": "$coh-color-orange",
+      "inuse": true
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: true
+selectable: true
+weight: 4

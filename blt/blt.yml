@@ -1,2 +1,23 @@
 project:
+  prefix: drupal-cards
   machine_name: drupal-cards
+  human_name: 'drupal-cards'
+  profile:
+    name: minimal
+  local:
+    hostname: '${project.machine_name}.lndo.site'
+    protocol: https
+    uri: '${project.local.protocol}://${project.local.hostname}'
+cm:
+  core:
+    install_from_config: true
+deploy:
+  tag_source: true
+validate:
+  twig:
+    functions: [drupal_entity]
+site-studio:
+  cohesion-import: true
+  sync-import: false
+  package-import: true
+  rebuild: true

@@ -1,0 +1,6 @@
+name: Custom Image Slider
+type: module
+description: 'A responsive image slider component for site studio'
+core_version_requirement: ^9 || ^10
+dependencies:
+  - cohesion:cohesion

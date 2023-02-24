@@ -1,0 +1,27 @@
+uuid: 4f832cd5-5a3d-4644-8f48-527d9485324e
+langcode: en
+status: true
+dependencies: {  }
+label: Gray-darker
+id: gray-darker
+json_values: |
+  {
+      "link": true,
+      "value": {
+          "value": {
+              "hex": "#9b9a9b",
+              "rgba": "rgba(155, 154, 155, 1)"
+          }
+      },
+      "uid": "gray-darker",
+      "name": "Gray-darker",
+      "class": ".coh-color-gray-darker",
+      "variable": "$coh-color-gray-darker",
+      "inuse": true
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: true
+selectable: true
+weight: 6

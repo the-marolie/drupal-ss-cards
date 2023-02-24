@@ -1,0 +1,27 @@
+uuid: 44d57d55-763f-4387-bef9-8bf41476961e
+langcode: en
+status: true
+dependencies: {  }
+label: white
+id: white
+json_values: |
+  {
+      "link": true,
+      "value": {
+          "value": {
+              "hex": "#ffffff",
+              "rgba": "rgba(255, 255, 255, 1)"
+          }
+      },
+      "uid": "white",
+      "name": "white",
+      "class": ".coh-color-white",
+      "variable": "$coh-color-white",
+      "inuse": true
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: true
+selectable: true
+weight: 1
