@@ -1,0 +1,35 @@
+uuid: a20b57e0-ebe5-4580-83bc-f0cdd73009eb
+langcode: en
+status: true
+dependencies: {  }
+id: pack_contact_form_with_google_ma
+label: 'Contact form with Google map'
+description: ''
+excluded_entity_types: '[]'
+settings: |
+  {
+      "50c08501-bfe9-4fe7-b196-41b1f0dab67c": {
+          "type": "cohesion_component",
+          "items": {
+              "177aa66a-69e3-40c6-a96e-61fe526b2f6f": {
+                  "type": "cohesion_color"
+              },
+              "44d57d55-763f-4387-bef9-8bf41476961e": {
+                  "type": "cohesion_color"
+              },
+              "e396aeed-0cd7-4e9a-8571-54ec03d77f0e": {
+                  "type": "cohesion_color"
+              },
+              "50c08501-bfe9-4fe7-b196-41b1f0dab67c": {
+                  "type": "cohesion_component"
+              },
+              "fa4d3549-dea7-4c9d-96d4-6e006924d716": {
+                  "type": "cohesion_component_category"
+              },
+              "f706272e-c6eb-45a2-927a-bfd47abe1c74": {
+                  "type": "cohesion_font_stack"
+              }
+          },
+          "checked": true
+      }
+  }

@@ -1,0 +1,6 @@
+name: Loan calculator
+type: module
+description: 'Provides a custom site studio element - loan calculator which can be used inside a component'
+core_version_requirement: ^9 || ^10
+dependencies:
+  - cohesion:cohesion

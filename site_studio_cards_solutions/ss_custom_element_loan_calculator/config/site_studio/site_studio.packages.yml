@@ -1,0 +1,7 @@
+-
+  type: default_module_package
+  source:
+    module_name: ss_custom_element_loan_calculator
+    path: /config/site_studio/packages/pack_custom_element_loan_calculator
+  options:
+    extra-validation: false

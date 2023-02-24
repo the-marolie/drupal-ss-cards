@@ -1,0 +1,7 @@
+-
+  type: default_module_package
+  source:
+    module_name: ss_image_slider
+    path: /config/site_studio/packages/pack_ss_image_slider
+  options:
+    extra-validation: false

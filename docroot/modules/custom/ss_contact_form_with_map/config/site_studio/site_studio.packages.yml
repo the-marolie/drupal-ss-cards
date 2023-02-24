@@ -1,0 +1,7 @@
+-
+  type: default_module_package
+  source:
+    module_name: ss_contact_form_with_map
+    path: /config/site_studio/packages/pack_contact_form_with_map
+  options:
+    extra-validation: false

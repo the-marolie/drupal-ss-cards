@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function ss_custom_element_loan_calculator_theme($existing, $type, $theme, $path) {
+  return [
+    'ss_custom_element_loan_calculator' => [
+      'template' => 'calculator',
+      'variables' => [
+        'elementSettings' => NULL,
+        'elementMarkup' => NULL,
+        'elementContext' => NULL,
+        'elementClass' => NULL,
+      ],
+      'render element' => 'children',
+    ],
+  ];
+}

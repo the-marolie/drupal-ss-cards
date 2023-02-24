@@ -1,0 +1,6 @@
+name: Testimonial Slider Component
+type: module
+description: 'A testimonial slider'
+core_version_requirement: ^9 || ^10
+dependencies:
+  - cohesion:cohesion

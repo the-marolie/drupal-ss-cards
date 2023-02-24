@@ -24,6 +24,7 @@
         "drupal/core-recommended": "^10",
         "drupal/facets": "^2.0",
         "drupal/search_api": "^1.28",
+        "drupal/webform": "^6.1",
         "drush/drush": "^11",
         "oomphinc/composer-installers-extender": "^2"
     },

@@ -1,0 +1,6 @@
+name: Custom Hero Component
+type: module
+description: 'Provides a Hero component that can set the text both vertically and horizontally.'
+core_version_requirement: ^9 || ^10
+dependencies:
+  - cohesion:cohesion

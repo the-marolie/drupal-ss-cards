@@ -1,0 +1,23 @@
+uuid: 9e69fd1c-edcc-4da4-8ab1-cfad9af35f12
+langcode: en
+status: true
+dependencies: {  }
+id: pack_loan_calculator_custom_elem
+label: 'Loan calculator - custom element'
+description: ''
+excluded_entity_types: '[]'
+settings: |
+  {
+      "946a145f-a021-4996-a3ed-b7c0d576d6e9": {
+          "type": "cohesion_component",
+          "items": {
+              "946a145f-a021-4996-a3ed-b7c0d576d6e9": {
+                  "type": "cohesion_component"
+              },
+              "fa4d3549-dea7-4c9d-96d4-6e006924d716": {
+                  "type": "cohesion_component_category"
+              }
+          },
+          "checked": true
+      }
+  }
