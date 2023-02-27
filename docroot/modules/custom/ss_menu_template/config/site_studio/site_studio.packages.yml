@@ -1,0 +1,7 @@
+-
+  type: default_module_package
+  source:
+    module_name: ss_menu_template
+    path: /config/site_studio/packages/pack_ss_menu_template
+  options:
+    extra-validation: false

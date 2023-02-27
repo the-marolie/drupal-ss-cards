@@ -1,0 +1,7 @@
+-
+  type: default_module_package
+  source:
+    module_name: sitestudio_lazyload_youtube
+    path: /config/site_studio/packages/pack_sitestudio_lazyload_youtube
+  options:
+    extra-validation: false

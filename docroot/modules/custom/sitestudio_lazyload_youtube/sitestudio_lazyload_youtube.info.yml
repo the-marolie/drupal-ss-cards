@@ -1,0 +1,7 @@
+name: Site Studio Lazyload Youtube
+type: module
+description: 'Site studio component to lazyload youtube video using Oembed module'
+core_version_requirement: ^10
+dependencies:
+  - cohesion:cohesion
+  - drupal:oembed_lazyload_youtube

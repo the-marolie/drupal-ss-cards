@@ -1,0 +1,53 @@
+uuid: 3af5e164-4815-45a1-a8a5-2dd35ea4e44a
+langcode: en
+status: true
+dependencies: {  }
+id: pack_menu_template
+label: 'Menu template'
+description: ''
+excluded_entity_types: '[]'
+settings: |
+  {
+      "d8643448-1ab6-4c34-a7cc-29bcb571f3ca": {
+          "type": "cohesion_component",
+          "items": {
+              "e396aeed-0cd7-4e9a-8571-54ec03d77f0e": {
+                  "type": "cohesion_color"
+              },
+              "44d57d55-763f-4387-bef9-8bf41476961e": {
+                  "type": "cohesion_color"
+              },
+              "177aa66a-69e3-40c6-a96e-61fe526b2f6f": {
+                  "type": "cohesion_color"
+              },
+              "d8643448-1ab6-4c34-a7cc-29bcb571f3ca": {
+                  "type": "cohesion_component"
+              },
+              "ca5b5234-9727-44e8-8cfc-c179b43dd791": {
+                  "type": "cohesion_component_category"
+              },
+              "f706272e-c6eb-45a2-927a-bfd47abe1c74": {
+                  "type": "cohesion_font_stack"
+              },
+              "bbd647ac-229d-40a5-b288-f17f61fe83bd": {
+                  "type": "cohesion_icon_library"
+              },
+              "aa23fd74-6d20-41f1-86de-ad9ee94c94b5": {
+                  "type": "cohesion_menu_templates"
+              },
+              "2fc9ebdb-73e6-4ff1-823b-a5b6cb4a1f3f": {
+                  "type": "file"
+              },
+              "3cb78e9d-ece1-4e06-af64-9c35bca5968a": {
+                  "type": "file"
+              },
+              "51b18abc-35ac-4e58-b277-b0dd42205e38": {
+                  "type": "file"
+              },
+              "5ed2007b-4b44-469c-a156-999b8da4b05a": {
+                  "type": "file"
+              }
+          },
+          "checked": true
+      }
+  }

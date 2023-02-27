@@ -1,0 +1,27 @@
+uuid: 8ea23c61-26b4-471f-ab5d-716253259043
+langcode: en
+status: true
+dependencies: {  }
+label: 'Overlay Black darker'
+id: overlay-black-darker
+json_values: |
+  {
+      "link": true,
+      "value": {
+          "value": {
+              "hex": "#000000",
+              "rgba": "rgba(0, 0, 0, 0.66)"
+          }
+      },
+      "uid": "overlay-black-darker",
+      "name": "Overlay Black darker",
+      "class": ".coh-color-overlay-black-darker",
+      "variable": "$coh-color-overlay-black-darker",
+      "inuse": true
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: true
+selectable: true
+weight: 7

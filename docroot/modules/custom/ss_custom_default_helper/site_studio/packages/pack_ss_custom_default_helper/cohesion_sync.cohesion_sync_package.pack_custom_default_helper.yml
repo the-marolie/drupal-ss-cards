@@ -1,0 +1,32 @@
+uuid: 2193478f-301c-4701-978b-c3b5188c1302
+langcode: en
+status: true
+dependencies: {  }
+id: pack_custom_default_helper
+label: 'Custom default helper'
+description: ''
+excluded_entity_types: '[]'
+settings: |
+  {
+      "dc6d9ca4-89df-4d5b-a1e1-673c1813b819": {
+          "type": "cohesion_helper",
+          "items": {
+              "949c1ab7-46d1-4963-887d-8bbed464deb5": {
+                  "type": "cohesion_component"
+              },
+              "68e53b37-44fd-40b3-8e2f-180bdf94275f": {
+                  "type": "cohesion_component_category"
+              },
+              "6ab0ec11-716d-479a-9222-402c2f7283f4": {
+                  "type": "cohesion_custom_style"
+              },
+              "dc6d9ca4-89df-4d5b-a1e1-673c1813b819": {
+                  "type": "cohesion_helper"
+              },
+              "62012ca7-5e22-4b3c-86ba-fda689e2eef7": {
+                  "type": "cohesion_helper_category"
+              }
+          },
+          "checked": true
+      }
+  }

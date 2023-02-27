@@ -1,0 +1,7 @@
+name: Article list and search with facets
+type: module
+description: 'Provides a component for listing and filtering articles with facets'
+core_version_requirement: ^9 || ^10
+dependencies:
+  - cohesion:cohesion
+  - drupal:facets

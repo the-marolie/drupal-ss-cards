@@ -1,0 +1,9 @@
+name: Custom Hero Banner
+category: cpt_cat_hero_components
+form: form.json
+template: hero-banner.html.twig
+js:
+  js/cstm_script.js: {}
+css:
+  css/cstm_styles.css: {}
+preview_image: preview.png

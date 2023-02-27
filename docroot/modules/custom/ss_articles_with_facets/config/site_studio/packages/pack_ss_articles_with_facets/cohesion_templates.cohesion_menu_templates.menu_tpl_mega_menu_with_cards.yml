@@ -1,0 +1,220 @@
+uuid: 976539e0-93ac-4147-acd0-0cfccbdd90df
+langcode: en
+status: true
+dependencies: {  }
+label: 'Mega menu with cards'
+id: menu_tpl_mega_menu_with_cards
+json_values: |
+  {
+      "canvas": [
+          {
+              "type": "container",
+              "uid": "container",
+              "title": "Container",
+              "status": {
+                  "collapsed": false
+              },
+              "iconColor": "layout",
+              "uuid": "3ea182af-99da-410b-9f95-c041aefec0b0",
+              "parentUid": "root",
+              "children": [
+                  {
+                      "type": "container",
+                      "uid": "menu-list-container",
+                      "title": "Menu list container",
+                      "status": {
+                          "collapsed": false
+                      },
+                      "iconColor": "menu",
+                      "uuid": "ac9cbcf6-459d-4a05-9f41-66572e342eb4",
+                      "parentUid": "container",
+                      "children": [
+                          {
+                              "type": "container",
+                              "uid": "menu-list-item",
+                              "title": "Menu list item",
+                              "status": {
+                                  "collapsed": false
+                              },
+                              "iconColor": "menu",
+                              "uuid": "b0036dca-e17f-46b8-90e6-1aed2d15eb49",
+                              "parentUid": "menu-list-container",
+                              "children": [
+                                  {
+                                      "type": "container",
+                                      "uid": "menu-link",
+                                      "title": "Menu link",
+                                      "status": {
+                                          "collapsed": true
+                                      },
+                                      "iconColor": "menu",
+                                      "uuid": "bceaef7a-1257-4900-b9b5-381a9cee73b9",
+                                      "parentUid": "menu-list-item",
+                                      "children": []
+                                  },
+                                  {
+                                      "type": "container",
+                                      "uid": "menu-list-container",
+                                      "title": "Menu list container",
+                                      "status": {
+                                          "collapsed": false
+                                      },
+                                      "iconColor": "menu",
+                                      "uuid": "e019c004-e07e-4316-a8ab-b4a0d40b307d",
+                                      "parentUid": "menu-list-item",
+                                      "children": [
+                                          {
+                                              "type": "container",
+                                              "uid": "menu-list-item",
+                                              "title": "Menu list item",
+                                              "status": {
+                                                  "collapsed": false
+                                              },
+                                              "iconColor": "menu",
+                                              "uuid": "b7c3bf8d-8aec-45ed-ac9b-d8035c59f39a",
+                                              "parentUid": "menu-list-container",
+                                              "children": [
+                                                  {
+                                                      "type": "container",
+                                                      "uid": "menu-link",
+                                                      "title": "Menu link",
+                                                      "status": {
+                                                          "collapsed": true
+                                                      },
+                                                      "iconColor": "menu",
+                                                      "uuid": "72bcbfa9-982f-4e9a-ac27-82f1acb3a970",
+                                                      "parentUid": "menu-list-item",
+                                                      "children": []
+                                                  }
+                                              ]
+                                          }
+                                      ]
+                                  }
+                              ]
+                          }
+                      ]
+                  }
+              ]
+          }
+      ],
+      "mapper": {
+          "3ea182af-99da-410b-9f95-c041aefec0b0": {
+              "settings": {
+                  "formDefinition": [
+                      {
+                          "formKey": "container-settings",
+                          "children": [
+                              {
+                                  "formKey": "container-width",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "width",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "common-link-animation",
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ],
+                                  "activeFields": [
+                                      {
+                                          "name": "animationType",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "common-link-modifier",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "modifierType",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "container-style",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "customStyle",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "container-markup",
+                                  "activeFields": [],
+                                  "breakpoints": []
+                              }
+                          ]
+                      }
+                  ],
+                  "selectorType": "topLevel",
+                  "form": null,
+                  "items": [],
+                  "title": "Default"
+              }
+          },
+          "ac9cbcf6-459d-4a05-9f41-66572e342eb4": {},
+          "b0036dca-e17f-46b8-90e6-1aed2d15eb49": {},
+          "bceaef7a-1257-4900-b9b5-381a9cee73b9": {},
+          "e019c004-e07e-4316-a8ab-b4a0d40b307d": {},
+          "b7c3bf8d-8aec-45ed-ac9b-d8035c59f39a": {},
+          "72bcbfa9-982f-4e9a-ac27-82f1acb3a970": {}
+      },
+      "model": {
+          "3ea182af-99da-410b-9f95-c041aefec0b0": {
+              "settings": {
+                  "width": "fluid",
+                  "title": "nav",
+                  "customStyle": [
+                      {}
+                  ],
+                  "htmlMarkup": "nav"
+              }
+          },
+          "b0036dca-e17f-46b8-90e6-1aed2d15eb49": {
+              "settings": {
+                  "visibility": "initially_hidden"
+              }
+          },
+          "bceaef7a-1257-4900-b9b5-381a9cee73b9": {
+              "settings": {
+                  "link_interaction": "toggle-on-hover"
+              }
+          },
+          "b7c3bf8d-8aec-45ed-ac9b-d8035c59f39a": {
+              "settings": {
+                  "visibility": "initially_hidden"
+              }
+          },
+          "72bcbfa9-982f-4e9a-ac27-82f1acb3a970": {
+              "settings": {
+                  "link_interaction": "toggle-on-hover"
+              }
+          }
+      },
+      "previewModel": {
+          "3ea182af-99da-410b-9f95-c041aefec0b0": {}
+      },
+      "variableFields": {
+          "3ea182af-99da-410b-9f95-c041aefec0b0": []
+      },
+      "meta": {
+          "fieldHistory": []
+      }
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: true
+selectable: true
+custom: true
+twig_template: menu--cohesion-menu-tpl-mega-menu-with-cards

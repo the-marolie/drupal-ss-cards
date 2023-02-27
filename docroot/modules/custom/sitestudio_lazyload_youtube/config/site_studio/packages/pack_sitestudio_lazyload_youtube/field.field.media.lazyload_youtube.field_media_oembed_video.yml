@@ -1,0 +1,19 @@
+uuid: a8c683cb-6cf3-4393-ac72-bc0ec9fcad88
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_oembed_video
+    - media.type.lazyload_youtube
+id: media.lazyload_youtube.field_media_oembed_video
+field_name: field_media_oembed_video
+entity_type: media
+bundle: lazyload_youtube
+label: 'Remote video URL'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
