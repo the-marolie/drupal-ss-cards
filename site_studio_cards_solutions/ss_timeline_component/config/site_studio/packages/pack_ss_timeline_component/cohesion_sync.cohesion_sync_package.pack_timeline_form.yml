@@ -1,0 +1,80 @@
+uuid: b50ff34c-59d6-43ea-926d-d5ce219d002a
+langcode: en
+status: true
+dependencies: {  }
+id: pack_timeline_form
+label: 'Timeline form'
+description: ''
+excluded_entity_types: '[]'
+settings: |
+  {
+      "7315f25d-563c-4f57-90eb-55c338419450": {
+          "type": "cohesion_component",
+          "items": {
+              "c18ea6f2-1f8b-439f-b2a1-23b98a348844": {
+                  "type": "cohesion_color"
+              },
+              "75556ff1-c6f0-48c8-b2a6-37a3a1cff6b4": {
+                  "type": "cohesion_color"
+              },
+              "6b205309-ee73-48e6-8e98-2973c162de8c": {
+                  "type": "cohesion_color"
+              },
+              "177aa66a-69e3-40c6-a96e-61fe526b2f6f": {
+                  "type": "cohesion_color"
+              },
+              "7315f25d-563c-4f57-90eb-55c338419450": {
+                  "type": "cohesion_component"
+              },
+              "361a8039-393f-45f3-8ee0-1e22a1184af9": {
+                  "type": "cohesion_component"
+              },
+              "58118420-cdfa-414a-8bbd-9b950ea12437": {
+                  "type": "cohesion_component"
+              },
+              "7b621d22-fc57-4e92-91e0-9a27fc7ba6c2": {
+                  "type": "cohesion_component"
+              },
+              "2383de38-a7fa-4be2-8a71-617250e1e5e2": {
+                  "type": "cohesion_component"
+              },
+              "64f3074a-7465-4ec7-bf7d-d33450ac17ee": {
+                  "type": "cohesion_component"
+              },
+              "380ef029-8003-4111-a479-efb645a0fcfe": {
+                  "type": "cohesion_component"
+              },
+              "547d50ea-676b-4a2b-a8e9-503372f5a440": {
+                  "type": "cohesion_component"
+              },
+              "44601a83-f65d-48b8-a75d-75c051f2cc2e": {
+                  "type": "cohesion_component"
+              },
+              "7460921b-fab9-48b5-86c4-e2aa2abdc56b": {
+                  "type": "cohesion_component_category"
+              },
+              "32f594f8-d2bd-4303-9084-bb6d008bef99": {
+                  "type": "cohesion_component_category"
+              },
+              "e3137fc8-975d-46da-a9d4-f4f63f2bc837": {
+                  "type": "cohesion_component_category"
+              },
+              "4e34c6f1-8aea-4b2b-ab3c-02c2701096a9": {
+                  "type": "cohesion_component_category"
+              },
+              "14fbbd8a-d757-47da-9f3b-1fb60f983267": {
+                  "type": "cohesion_custom_style"
+              },
+              "98258f60-afa1-47f6-9a4d-c31df6cafc91": {
+                  "type": "cohesion_custom_style"
+              },
+              "f706272e-c6eb-45a2-927a-bfd47abe1c74": {
+                  "type": "cohesion_font_stack"
+              },
+              "02f6d101-a64f-4236-9451-9b200f8d213d": {
+                  "type": "file"
+              }
+          },
+          "checked": true
+      }
+  }

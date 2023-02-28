@@ -1,0 +1,18 @@
+uuid: 5992d234-7297-4891-9ddd-f036fadc8e63
+langcode: en
+status: true
+dependencies: {  }
+label: 'General Padding Top - Large'
+id: 3332a52a
+json_values: '{"preview":{"text":"<div class=\"coh-preview\">Default content for ''Layout''.<\/div>","textFormat":"cohesion","background":{"value":{"rgba":"rgba(255,255,255,1)"}}},"styles":{"settings":{"element":"div"},"styles":{"xl":{"padding":{"padding-top":{"value":"50"},"padding-bottom":{"value":"50"}}}}},"previewModel":{},"variableFields":[]}'
+json_mapper: '{"styles":{"title":"Default","selectorType":"topLevel","formDefinition":[{"formKey":"layout","children":[{"formKey":"padding","breakpoints":[{"name":"xl"}],"activeFields":[{"name":"padding-equal","active":false},{"name":"padding-top","active":true},{"name":"padding-bottom","active":true},{"name":"padding-left","active":false},{"name":"padding-right","active":false},{"name":"padding-block-start","active":false},{"name":"padding-block-end","active":false},{"name":"padding-inline-start","active":false},{"name":"padding-inline-end","active":false}]}]}],"items":[]}}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: true
+selectable: true
+class_name: .coh-style-general-padding-top---large
+custom_style_type: layout
+available_in_wysiwyg: false
+available_in_wysiwyg_inline: false
+parent: null
+weight: 0

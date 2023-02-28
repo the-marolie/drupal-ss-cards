@@ -1,0 +1,21 @@
+uuid: bc865494-2d12-4c13-84c5-4953c523737f
+langcode: en
+status: true
+dependencies:
+  config:
+    - cohesion_elements.cohesion_component_category.cpt_cat_hero_components
+label: 'Calculator alt'
+id: cpt_calculator_alt
+json_values: '{"canvas":[{"type":"item","uid":"ss_custom_element_loan_calculator","isCustom":true,"title":"Loan Calculator","selected":false,"status":{"collapsed":true},"iconColor":"custom","uuid":"ad80032b-68a5-4383-ba48-b4be4de2f4db","parentUid":"root","children":[]}],"componentForm":[],"mapper":{"ad80032b-68a5-4383-ba48-b4be4de2f4db":{"settings":{"formDefinition":[{"formKey":"ss_custom_element_loan_calculator_settings","children":[{"formKey":"ss_custom_element_loan_calculator_dynamic","breakpoints":[],"activeFields":[{"name":"src","active":true}]}]}],"selectorType":"topLevel","form":null,"items":[],"title":"Default"}}},"model":{"ad80032b-68a5-4383-ba48-b4be4de2f4db":{"settings":{"title":"Loan Calculator","minimum_amount":"1000","maximum_amount":"1000000","minimum_interest_rate":"1","maximum_interest_rate":"50","minimum_tenure":"1","maximum_tenure":"10"}}},"previewModel":{"ad80032b-68a5-4383-ba48-b4be4de2f4db":{}},"variableFields":{"ad80032b-68a5-4383-ba48-b4be4de2f4db":[]},"disabledNodes":[],"meta":{"fieldHistory":[]}}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: true
+selectable: true
+category: cpt_cat_hero_components
+preview_image: ''
+has_quick_edit: null
+entity_type_access: {  }
+bundle_access: {  }
+twig_template: component--cohesion-cpt-calculator-alt
+weight: 0

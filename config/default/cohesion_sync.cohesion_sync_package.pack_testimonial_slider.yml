@@ -1,0 +1,9 @@
+uuid: 09801c6b-f1e9-47c5-8a30-c4b9dd1337c9
+langcode: en
+status: true
+dependencies: {  }
+id: pack_testimonial_slider
+label: 'Testimonial Slider'
+description: ''
+excluded_entity_types: '[]'
+settings: '{"719ecd64-9f51-49d1-b8bf-f8d631ffa3a5":{"type":"cohesion_component","items":{"e396aeed-0cd7-4e9a-8571-54ec03d77f0e":{"type":"cohesion_color"},"44d57d55-763f-4387-bef9-8bf41476961e":{"type":"cohesion_color"},"3f64f260-c2de-4d3c-a505-d298362d9395":{"type":"cohesion_color"},"70ed2b13-d2df-43e1-8058-5db4e23ceca6":{"type":"cohesion_color"},"719ecd64-9f51-49d1-b8bf-f8d631ffa3a5":{"type":"cohesion_component"},"fa4d3549-dea7-4c9d-96d4-6e006924d716":{"type":"cohesion_component_category"},"5992d234-7297-4891-9ddd-f036fadc8e63":{"type":"cohesion_custom_style"},"8f8005f2-ebbe-4d8e-a90b-a4c576df569f":{"type":"cohesion_custom_style"},"f706272e-c6eb-45a2-927a-bfd47abe1c74":{"type":"cohesion_font_stack"},"4c75bc38-b5ee-4ba5-94b4-fb3bc8476f06":{"type":"file"},"bbd647ac-229d-40a5-b288-f17f61fe83bd":{"type":"cohesion_icon_library"},"247caa3f-796c-4108-94cb-2cdce4775776":{"type":"file"},"6db1f77c-53cb-469a-9f09-f91f93c76ce2":{"type":"file"},"8db53f43-d323-4cd3-a252-4731c28f4b34":{"type":"file"},"bdd2c893-32a0-415f-8db6-efb2690dcf81":{"type":"file"}},"checked":true}}'

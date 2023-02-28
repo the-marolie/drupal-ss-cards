@@ -1,0 +1,14 @@
+uuid: ca5b5234-9727-44e8-8cfc-c179b43dd791
+langcode: en
+status: true
+dependencies: {  }
+label: 'Header & Footer'
+id: cpt_cat_header_footer
+json_values: '{}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: false
+selectable: true
+class: category-15
+weight: 1000

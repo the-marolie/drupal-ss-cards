@@ -1,0 +1,26 @@
+uuid: 177aa66a-69e3-40c6-a96e-61fe526b2f6f
+langcode: en
+status: true
+dependencies: {  }
+label: 'Light gray'
+id: light-gray
+json_values: |
+  {
+      "link": true,
+      "value": {
+          "value": {
+              "hex": "#f3f3f3",
+              "rgba": "rgba(243, 243, 243, 1)"
+          }
+      },
+      "uid": "light-gray",
+      "name": "Light gray",
+      "class": ".coh-color-light-gray",
+      "variable": "$coh-color-light-gray"
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: true
+selectable: true
+weight: 9

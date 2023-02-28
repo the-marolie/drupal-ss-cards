@@ -1,0 +1,18 @@
+uuid: 63721514-25d8-439f-8d58-2fe350079e68
+langcode: en
+status: false
+dependencies: {  }
+label: 'Token (Menu_link_content, Administration)'
+id: menu_link_content_admin_token
+json_values: '{"canvas":[],"mapper":null,"model":[]}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+modified: false
+selectable: false
+custom: false
+twig_template: null
+default: false
+entity_type: menu_link_content
+bundle: admin
+view_mode: token
+master_template: ''

@@ -1,0 +1,8 @@
+uuid: 6f15cb94-fc28-449a-82e6-b53c0e40d124
+langcode: en
+status: true
+dependencies: {  }
+name: 'Article type'
+vid: article_type
+description: ''
+weight: 0

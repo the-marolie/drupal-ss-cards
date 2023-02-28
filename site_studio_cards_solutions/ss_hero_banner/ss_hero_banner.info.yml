@@ -1,0 +1,7 @@
+name: Site Studio Custom Hero Banner
+type: module
+description: 'Site studio custom hero banner component'
+core_version_requirement: ^10
+package: 'Site Studio Cards'
+dependencies:
+  - cohesion:cohesion

@@ -1,0 +1,20 @@
+uuid: 3914208d-36e1-4fec-be11-568bdf38c4f3
+langcode: en
+status: true
+dependencies: {  }
+id: pack_style_guide_card
+label: 'Style guide card'
+description: ''
+excluded_entity_types: '[]'
+settings: |
+  {
+      "f52e7d68-9603-46e6-8f2e-e7fddf83ab5e": {
+          "type": "cohesion_style_guide",
+          "items": {
+              "f52e7d68-9603-46e6-8f2e-e7fddf83ab5e": {
+                  "type": "cohesion_style_guide"
+              }
+          },
+          "checked": true
+      }
+  }

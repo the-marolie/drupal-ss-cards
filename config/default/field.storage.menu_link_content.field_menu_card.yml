@@ -1,0 +1,20 @@
+uuid: d91c6570-7ac8-46b4-8f46-d0c50b99966f
+langcode: en
+status: true
+dependencies:
+  module:
+    - cohesion_elements
+    - menu_link_content
+id: menu_link_content.field_menu_card
+field_name: field_menu_card
+entity_type: menu_link_content
+type: cohesion_entity_reference_revisions
+settings:
+  target_type: cohesion_layout
+module: cohesion_elements
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: 7b4337b0-eac6-474d-acff-96ff0dc85c95
+langcode: en
+status: true
+dependencies:
+  config:
+    - cohesion_elements.cohesion_component_category.cpt_cat_custom_components
+    - views.view.article_search
+label: 'Article List with Facets'
+id: cpt_article_list_with_facets
+json_values: '{"canvas":[{"type":"container","uid":"column","title":"Column","status":{"collapsed":false},"iconColor":"layout","uuid":"cc53ebbc-d93a-4849-b459-83cb14955769","parentUid":"root","children":[{"type":"item","uid":"drupal-block","title":"Block","status":{"collapsed":true},"iconColor":"drupal","uuid":"027c65a5-c6d4-43c1-8786-a2330312eac6","parentUid":"column","children":[]}]}],"componentForm":[],"mapper":{"cc53ebbc-d93a-4849-b459-83cb14955769":{},"027c65a5-c6d4-43c1-8786-a2330312eac6":{"settings":{"formDefinition":[{"formKey":"block-settings","children":[{"formKey":"block-drupal-block","breakpoints":[],"activeFields":[{"name":"block","active":true}]},{"formKey":"block-style","breakpoints":[],"activeFields":[{"name":"customStyle","active":true}]}]}],"selectorType":"topLevel","form":null,"items":[],"title":"Default"}}},"model":{"cc53ebbc-d93a-4849-b459-83cb14955769":{"settings":{"styles":{"xl":{"col":-2,"pull":-1,"push":-1,"offset":-1}}}},"027c65a5-c6d4-43c1-8786-a2330312eac6":{"settings":{"title":"Block","customStyle":[{}],"theme":"all","block":"views_block__article_search_block_1"}}},"previewModel":{"027c65a5-c6d4-43c1-8786-a2330312eac6":{}},"variableFields":{"027c65a5-c6d4-43c1-8786-a2330312eac6":[]},"disabledNodes":[],"meta":{"fieldHistory":[]}}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: true
+selectable: true
+category: cpt_cat_custom_components
+preview_image: ''
+has_quick_edit: null
+entity_type_access: {  }
+bundle_access: {  }
+twig_template: component--cohesion-cpt-article-list-with-facets
+weight: 0

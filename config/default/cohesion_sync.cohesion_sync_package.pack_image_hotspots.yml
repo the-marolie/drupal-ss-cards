@@ -1,0 +1,9 @@
+uuid: d86d0839-ad40-4614-b75b-6893a1910630
+langcode: en
+status: true
+dependencies: {  }
+id: pack_image_hotspots
+label: 'Image hotspots'
+description: ''
+excluded_entity_types: '[]'
+settings: '{"4c45b7b0-8674-4dc5-9d2f-f081aead2cdf":{"type":"cohesion_component","items":{"c18ea6f2-1f8b-439f-b2a1-23b98a348844":{"type":"cohesion_color"},"44d57d55-763f-4387-bef9-8bf41476961e":{"type":"cohesion_color"},"4c45b7b0-8674-4dc5-9d2f-f081aead2cdf":{"type":"cohesion_component"},"fa4d3549-dea7-4c9d-96d4-6e006924d716":{"type":"cohesion_component_category"},"bbd647ac-229d-40a5-b288-f17f61fe83bd":{"type":"cohesion_icon_library"},"247caa3f-796c-4108-94cb-2cdce4775776":{"type":"file"},"6db1f77c-53cb-469a-9f09-f91f93c76ce2":{"type":"file"},"8db53f43-d323-4cd3-a252-4731c28f4b34":{"type":"file"},"bdd2c893-32a0-415f-8db6-efb2690dcf81":{"type":"file"},"43c2db67-80b8-4986-b958-e33c3697f9ea":{"type":"file"}},"checked":true}}'

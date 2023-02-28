@@ -1,0 +1,10 @@
+uuid: 0fd3c523-06bc-4258-8e27-439ab713a6b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_link_content
+id: menu_link_content.menu_card
+label: 'Menu card'
+targetEntityType: menu_link_content
+cache: true

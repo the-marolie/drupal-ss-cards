@@ -1,0 +1,31 @@
+uuid: 93cc8442-02dd-45a0-be5f-e68706dd9d4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.ss_subscription_plans
+  module:
+    - cohesion
+    - webform
+  theme:
+    - cohesion_theme
+id: webform
+theme: cohesion_theme
+region: dx8_hidden
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Webform subscription plan'
+  label_display: '0'
+  provider: webform
+  webform_id: ss_subscription_plans
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility:
+  cohesion_master_template:
+    id: cohesion_master_template
+    using_master_template: 0
+    negate: false

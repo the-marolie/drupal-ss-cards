@@ -1,0 +1,13 @@
+uuid: cdccb02b-c7a7-4821-a7e5-17be64546a9c
+langcode: en
+status: false
+dependencies: {  }
+label: Body
+id: body
+json_values: '{}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: false
+selectable: false
+custom: null

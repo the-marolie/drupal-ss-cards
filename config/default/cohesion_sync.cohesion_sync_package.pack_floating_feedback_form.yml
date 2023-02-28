@@ -1,0 +1,9 @@
+uuid: e958d31b-6c13-4819-ab16-d2232edc5848
+langcode: en
+status: true
+dependencies: {  }
+id: pack_floating_feedback_form
+label: 'Floating feedback form'
+description: ''
+excluded_entity_types: '[]'
+settings: '{"aeff5368-131e-4ec6-9ea4-4846dd15a342":{"type":"cohesion_component","items":{"44d57d55-763f-4387-bef9-8bf41476961e":{"type":"cohesion_color"},"aeff5368-131e-4ec6-9ea4-4846dd15a342":{"type":"cohesion_component"},"fa4d3549-dea7-4c9d-96d4-6e006924d716":{"type":"cohesion_component_category"}},"checked":true}}'

@@ -1,0 +1,353 @@
+uuid: 7a43ba04-4400-4ac7-99d3-7ea371b907ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - cohesion_elements.cohesion_component_category.cpt_cat_custom_components
+    - views.view.articles_landing
+label: 'Articles Grid List'
+id: cpt_articles_grid_list
+json_values: |
+  {
+      "canvas": [
+          {
+              "type": "container",
+              "uid": "container",
+              "title": "Container",
+              "status": {
+                  "collapsed": false
+              },
+              "iconColor": "layout",
+              "uuid": "85abaa4d-9db5-4fda-9932-9b2d963af5a6",
+              "parentUid": "root",
+              "children": [
+                  {
+                      "type": "item",
+                      "uid": "drupal-block",
+                      "title": "Block",
+                      "status": {
+                          "collapsed": true
+                      },
+                      "iconColor": "drupal",
+                      "uuid": "96742977-3a7a-461d-8eb6-bc62cb77d4b1",
+                      "parentUid": "container",
+                      "children": []
+                  }
+              ]
+          }
+      ],
+      "componentForm": [
+          {
+              "type": "form-field",
+              "uid": "form-select",
+              "title": "Select",
+              "translate": false,
+              "status": {
+                  "collapsed": false
+              },
+              "iconColor": "formField",
+              "uuid": "849e897f-d070-4d1f-9672-39f173d61ce7",
+              "parentUid": "root",
+              "children": []
+          },
+          {
+              "type": "form-field",
+              "uid": "form-select",
+              "title": "Select",
+              "translate": false,
+              "status": {
+                  "collapsed": false
+              },
+              "iconColor": "formField",
+              "uuid": "5ea53362-1fce-45f1-b17b-e72dc4c631d2",
+              "parentUid": "root",
+              "children": []
+          },
+          {
+              "type": "form-field",
+              "uid": "form-colorpicker",
+              "title": "Color picker",
+              "status": {
+                  "collapsed": false
+              },
+              "iconColor": "formField",
+              "uuid": "21788936-0a07-471c-bcc9-718148179853",
+              "parentUid": "root",
+              "children": []
+          }
+      ],
+      "mapper": {
+          "96742977-3a7a-461d-8eb6-bc62cb77d4b1": {
+              "settings": {
+                  "formDefinition": [
+                      {
+                          "formKey": "block-settings",
+                          "children": [
+                              {
+                                  "formKey": "block-drupal-block",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "block",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "block-style",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "customStyle",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "selectorType": "topLevel",
+                  "form": null,
+                  "items": [],
+                  "title": "Default"
+              }
+          },
+          "849e897f-d070-4d1f-9672-39f173d61ce7": {},
+          "5ea53362-1fce-45f1-b17b-e72dc4c631d2": {},
+          "21788936-0a07-471c-bcc9-718148179853": {},
+          "85abaa4d-9db5-4fda-9932-9b2d963af5a6": {
+              "settings": {
+                  "formDefinition": [
+                      {
+                          "formKey": "container-settings",
+                          "children": [
+                              {
+                                  "formKey": "container-width",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "width",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "common-link-animation",
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ],
+                                  "activeFields": [
+                                      {
+                                          "name": "animationType",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "common-link-modifier",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "modifierType",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "container-style",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "customStyle",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "selectorType": "topLevel",
+                  "form": null,
+                  "items": [],
+                  "title": "Default"
+              },
+              "styles": {
+                  "formDefinition": [
+                      {
+                          "formKey": "background",
+                          "children": [
+                              {
+                                  "formKey": "background-color",
+                                  "activeFields": [
+                                      {
+                                          "name": "background-color",
+                                          "active": true
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "title": "Default",
+                  "selectorType": "topLevel",
+                  "items": []
+              }
+          }
+      },
+      "model": {
+          "85abaa4d-9db5-4fda-9932-9b2d963af5a6": {
+              "settings": {
+                  "width": "fluid",
+                  "title": "Container",
+                  "customStyle": [
+                      {}
+                  ]
+              },
+              "styles": {
+                  "settings": {
+                      "topLevel": "Default"
+                  },
+                  "styles": {
+                      "xl": {
+                          "background-color": {
+                              "value": "[field.21788936-0a07-471c-bcc9-718148179853]"
+                          }
+                      }
+                  }
+              }
+          },
+          "96742977-3a7a-461d-8eb6-bc62cb77d4b1": {
+              "settings": {
+                  "title": "Block",
+                  "customStyle": [
+                      {}
+                  ],
+                  "theme": "cohesion_child_theme",
+                  "block": "cohesion_child_theme_views_block__articles_landing_block_1"
+              }
+          },
+          "849e897f-d070-4d1f-9672-39f173d61ce7": {
+              "settings": {
+                  "type": "cohSelect",
+                  "title": "No of rows",
+                  "selectType": "custom",
+                  "schema": {
+                      "type": "string"
+                  },
+                  "machineName": "agl-no-of-rows",
+                  "options": [
+                      {
+                          "label": "3",
+                          "value": "3"
+                      },
+                      {
+                          "label": "4",
+                          "value": "4"
+                      },
+                      {
+                          "label": "5",
+                          "value": "5"
+                      }
+                  ],
+                  "tooltipPlacement": "auto right"
+              }
+          },
+          "5ea53362-1fce-45f1-b17b-e72dc4c631d2": {
+              "settings": {
+                  "type": "cohSelect",
+                  "title": "No of columns",
+                  "selectType": "custom",
+                  "schema": {
+                      "type": "string"
+                  },
+                  "machineName": "agl-no-of-columns",
+                  "options": [
+                      {
+                          "label": "3",
+                          "value": "4"
+                      },
+                      {
+                          "label": "4",
+                          "value": "3"
+                      },
+                      {
+                          "label": "5",
+                          "value": "2"
+                      }
+                  ],
+                  "tooltipPlacement": "auto right"
+              }
+          },
+          "21788936-0a07-471c-bcc9-718148179853": {
+              "settings": {
+                  "type": "cohColourPickerOpener",
+                  "title": "Page background",
+                  "colourPickerOptions": {
+                      "flat": true,
+                      "showOnly": "palette"
+                  },
+                  "schema": {
+                      "type": "object"
+                  },
+                  "machineName": "agl-page-background",
+                  "restrictBy": "none",
+                  "tooltipPlacement": "auto right"
+              }
+          }
+      },
+      "previewModel": {
+          "96742977-3a7a-461d-8eb6-bc62cb77d4b1": {},
+          "849e897f-d070-4d1f-9672-39f173d61ce7": {},
+          "5ea53362-1fce-45f1-b17b-e72dc4c631d2": {},
+          "21788936-0a07-471c-bcc9-718148179853": {},
+          "85abaa4d-9db5-4fda-9932-9b2d963af5a6": {}
+      },
+      "variableFields": {
+          "96742977-3a7a-461d-8eb6-bc62cb77d4b1": [],
+          "849e897f-d070-4d1f-9672-39f173d61ce7": [],
+          "5ea53362-1fce-45f1-b17b-e72dc4c631d2": [],
+          "21788936-0a07-471c-bcc9-718148179853": [],
+          "85abaa4d-9db5-4fda-9932-9b2d963af5a6": [
+              "styles.styles.xl.background-color.value"
+          ]
+      },
+      "disabledNodes": [],
+      "meta": {
+          "fieldHistory": [
+              {
+                  "uuid": "21788936-0a07-471c-bcc9-718148179853",
+                  "type": "form-colorpicker",
+                  "machineName": "agl-page-background"
+              },
+              {
+                  "uuid": "5ea53362-1fce-45f1-b17b-e72dc4c631d2",
+                  "type": "form-select",
+                  "machineName": "agl-no-of-columns"
+              },
+              {
+                  "uuid": "849e897f-d070-4d1f-9672-39f173d61ce7",
+                  "type": "form-select",
+                  "machineName": "agl-no-of-rows"
+              }
+          ]
+      }
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: true
+selectable: true
+category: cpt_cat_custom_components
+preview_image: ''
+has_quick_edit: null
+entity_type_access: {  }
+bundle_access: {  }
+twig_template: component--cohesion-cpt-articles-grid-list
+weight: 1

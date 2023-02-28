@@ -1,0 +1,18 @@
+uuid: 6b52e368-06d9-4d11-a037-7318a0ff62cc
+langcode: en
+status: false
+dependencies: {  }
+label: 'Search result highlighting input (Node)'
+id: node___any___search_result
+json_values: '{"canvas":[],"mapper":null,"model":[]}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+modified: false
+selectable: false
+custom: false
+twig_template: null
+default: false
+entity_type: node
+bundle: __any__
+view_mode: search_result
+master_template: ''

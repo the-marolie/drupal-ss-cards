@@ -1,0 +1,8 @@
+name: Timeline Component
+type: module
+description: 'A timeline component for site studio'
+core_version_requirement: ^9 || ^10
+package: 'Site Studio Cards'
+dependencies:
+  - cohesion:cohesion
+  - webform:webform

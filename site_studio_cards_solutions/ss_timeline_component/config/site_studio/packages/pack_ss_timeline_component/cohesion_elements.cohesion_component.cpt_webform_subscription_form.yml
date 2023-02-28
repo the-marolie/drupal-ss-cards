@@ -1,0 +1,97 @@
+uuid: 44601a83-f65d-48b8-a75d-75c051f2cc2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - cohesion_elements.cohesion_component_category.cpt_cat_uncategorized
+label: 'Webform subscription form'
+id: cpt_webform_subscription_form
+json_values: |
+  {
+      "canvas": [
+          {
+              "type": "item",
+              "uid": "drupal-block",
+              "title": "Block",
+              "status": {
+                  "collapsed": true
+              },
+              "iconColor": "drupal",
+              "uuid": "2293848f-c93c-4f4c-960a-431553fd7831",
+              "parentUid": "root",
+              "children": []
+          }
+      ],
+      "componentForm": [],
+      "mapper": {
+          "2293848f-c93c-4f4c-960a-431553fd7831": {
+              "settings": {
+                  "formDefinition": [
+                      {
+                          "formKey": "block-settings",
+                          "children": [
+                              {
+                                  "formKey": "block-drupal-block",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "block",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "block-style",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "customStyle",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "selectorType": "topLevel",
+                  "form": null,
+                  "items": [],
+                  "title": "Default"
+              }
+          }
+      },
+      "model": {
+          "2293848f-c93c-4f4c-960a-431553fd7831": {
+              "settings": {
+                  "title": "Block",
+                  "customStyle": [
+                      {}
+                  ],
+                  "theme": "cohesion_theme",
+                  "block": "webform"
+              }
+          }
+      },
+      "previewModel": {
+          "2293848f-c93c-4f4c-960a-431553fd7831": {}
+      },
+      "variableFields": {
+          "2293848f-c93c-4f4c-960a-431553fd7831": []
+      },
+      "disabledNodes": [],
+      "meta": {
+          "fieldHistory": []
+      }
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: true
+selectable: true
+category: cpt_cat_uncategorized
+preview_image: ''
+has_quick_edit: null
+entity_type_access: {  }
+bundle_access: {  }
+twig_template: component--cohesion-cpt-webform-subscription-form
+weight: 0

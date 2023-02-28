@@ -1,0 +1,11 @@
+uuid: e6421f52-e2bb-449f-88a4-8e08ca64b0b8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Ve608rdNH2I04_YgTmoHoPURcsyevLsQdlwG5bNi860
+id: search_api__views_block__article_search__block_1
+name: 'search_api:views_block__article_search__block_1'
+filter_key: null
+url_processor: query_string
+breadcrumb: {  }

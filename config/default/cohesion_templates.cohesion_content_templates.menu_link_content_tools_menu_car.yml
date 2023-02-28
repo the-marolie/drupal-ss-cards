@@ -1,0 +1,18 @@
+uuid: 0e887288-8a75-473b-a179-29b783b12f16
+langcode: en
+status: false
+dependencies: {  }
+label: 'Menu card (Menu_link_content, Tools)'
+id: menu_link_content_tools_menu_car
+json_values: '{"canvas":[],"mapper":null,"model":[]}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+modified: false
+selectable: false
+custom: false
+twig_template: null
+default: false
+entity_type: menu_link_content
+bundle: tools
+view_mode: menu_card
+master_template: ''

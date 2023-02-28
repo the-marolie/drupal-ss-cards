@@ -1,0 +1,14 @@
+uuid: fc843933-89c7-46de-ba23-cba9b6f21275
+langcode: en
+status: true
+dependencies: {  }
+label: 'Hero Components'
+id: cpt_cat_hero_components
+json_values: '{}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: false
+selectable: true
+class: category-1
+weight: 1

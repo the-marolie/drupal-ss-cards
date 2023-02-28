@@ -1,0 +1,24 @@
+uuid: b9f41aea-8f96-42a1-b344-4b27e0a891ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.menu_link_content.field_menu_card
+    - system.menu.mega-menu
+  module:
+    - cohesion_elements
+id: menu_link_content.mega-menu.field_menu_card
+field_name: field_menu_card
+entity_type: menu_link_content
+bundle: mega-menu
+label: 'Menu card'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:cohesion_layout'
+  handler_settings: {  }
+  access_elements: '0'
+field_type: cohesion_entity_reference_revisions

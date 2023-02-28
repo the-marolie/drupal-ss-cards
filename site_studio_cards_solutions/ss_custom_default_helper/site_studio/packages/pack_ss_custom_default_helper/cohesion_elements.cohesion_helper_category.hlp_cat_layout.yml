@@ -1,0 +1,13 @@
+uuid: 62012ca7-5e22-4b3c-86ba-fda689e2eef7
+langcode: en
+status: true
+dependencies: {  }
+label: Layout
+id: hlp_cat_layout
+json_values: '{}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+modified: false
+selectable: true
+class: category-2
+weight: 1000

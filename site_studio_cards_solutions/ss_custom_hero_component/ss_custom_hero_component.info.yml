@@ -1,6 +1,7 @@
-name: Custom Hero Component
+name: Custom Component - Hero Banner
 type: module
-description: 'Provides a Hero component that can set the text both vertically and horizontally.'
+description: 'Provides a custom  component for hero banner'
 core_version_requirement: ^9 || ^10
+package: 'Site Studio Cards'
 dependencies:
   - cohesion:cohesion

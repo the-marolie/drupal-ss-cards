@@ -1,0 +1,13 @@
+uuid: 0bd07871-e978-47e0-b7b5-e9cccf404efd
+langcode: en
+status: false
+dependencies: {  }
+label: 'Heading 4'
+id: heading_4
+json_values: '{}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: false
+selectable: false
+custom: null

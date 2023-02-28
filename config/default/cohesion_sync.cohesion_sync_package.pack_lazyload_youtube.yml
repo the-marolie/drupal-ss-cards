@@ -1,0 +1,9 @@
+uuid: caa06fc5-8901-4a0e-a742-549d226b9b66
+langcode: en
+status: true
+dependencies: {  }
+id: pack_lazyload_youtube
+label: 'Lazyload youtube'
+description: ''
+excluded_entity_types: '[]'
+settings: '{"40174557-895a-45c3-bad7-bf297f9567ef":{"type":"cohesion_component","items":{"40174557-895a-45c3-bad7-bf297f9567ef":{"type":"cohesion_component"},"fa4d3549-dea7-4c9d-96d4-6e006924d716":{"type":"cohesion_component_category"}},"checked":true},"3ff15217-edf9-489b-af45-6f432774f417":{"type":"media_type","items":{"3b69fb45-bff5-407b-910a-db1ae739fb78":{"type":"field_config"},"a8c683cb-6cf3-4393-ac72-bc0ec9fcad88":{"type":"field_config"},"81caa64c-0d75-41d5-8807-3583bed1087b":{"type":"field_storage_config"},"b5f5cadc-64dd-424b-9beb-d479bf990cab":{"type":"field_storage_config"},"3ff15217-edf9-489b-af45-6f432774f417":{"type":"media_type"}},"checked":true}}'

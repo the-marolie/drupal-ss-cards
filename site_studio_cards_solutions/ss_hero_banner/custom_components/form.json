@@ -1,0 +1,100 @@
+{
+    "canvas": [],
+    "disabledNodes": [],
+    "componentForm": [
+        {
+            "type": "form-field",
+            "uid": "form-input",
+            "title": "Input",
+            "translate": true,
+            "status": {
+                "collapsed": false
+            },
+            "iconColor": "formField",
+            "uuid": "07e25d38-8c92-4736-a6e9-31717dc57ffa",
+            "parentUid": "root"
+        },
+        {
+            "type": "form-field",
+            "uid": "form-wysiwyg",
+            "title": "WYSIWYG",
+            "translate": true,
+            "status": {
+                "collapsed": false
+            },
+            "iconColor": "formField",
+            "uuid": "2fb297a8-1c81-4430-8fca-77e15f518a99",
+            "parentUid": "root"
+        },
+        {
+            "type": "form-field",
+            "uid": "form-image",
+            "title": "Image uploader",
+            "status": {
+                "collapsed": false
+            },
+            "iconColor": "formField",
+            "uuid": "bb20345d-98ac-45e7-b20d-d159539e1450",
+            "parentUid": "root"
+        }
+    ],
+    "model": {
+        "07e25d38-8c92-4736-a6e9-31717dc57ffa": {
+            "settings": {
+                "title": "Heading",
+                "schema": {
+                    "type": "string",
+                    "escape": true
+                },
+                "machineName": "cc-heading",
+                "tooltipPlacement": "auto right"
+            }
+        },
+        "2fb297a8-1c81-4430-8fca-77e15f518a99": {
+            "settings": {
+                "type": "cohWysiwyg",
+                "title": "Body",
+                "schema": {
+                    "type": "object"
+                },
+                "machineName": "cc-body",
+                "tooltipPlacement": "auto right"
+            }
+        },
+        "bb20345d-98ac-45e7-b20d-d159539e1450": {
+            "settings": {
+                "type": "cohFileBrowser",
+                "options": {
+                    "buttonText": "Select image",
+                    "imageUploader": false,
+                    "allowedDescription": "Allowed: png, gif, jpg, jpeg \nMax file size: 2MB",
+                    "removeLabel": "Remove"
+                },
+                "title": "Image",
+                "isStyle": true,
+                "defaultActive": true,
+                "schema": {
+                    "type": "string"
+                },
+                "machineName": "cc-bg-image",
+                "tooltipPlacement": "auto right"
+            }
+        }
+    },
+    "mapper": {
+        "07e25d38-8c92-4736-a6e9-31717dc57ffa": {},
+        "2fb297a8-1c81-4430-8fca-77e15f518a99": {},
+        "bb20345d-98ac-45e7-b20d-d159539e1450": {}
+    },
+    "previewModel": {
+        "07e25d38-8c92-4736-a6e9-31717dc57ffa": {},
+        "2fb297a8-1c81-4430-8fca-77e15f518a99": {},
+        "bb20345d-98ac-45e7-b20d-d159539e1450": {}
+    },
+    "variableFields": {
+        "07e25d38-8c92-4736-a6e9-31717dc57ffa": [],
+        "2fb297a8-1c81-4430-8fca-77e15f518a99": [],
+        "bb20345d-98ac-45e7-b20d-d159539e1450": []
+    },
+    "meta": {}
+}

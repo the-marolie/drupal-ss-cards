@@ -1,0 +1,64 @@
+uuid: ee14cd33-c0aa-41d9-ab49-5d22f0f35da3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_article_type
+    - search_api.server.dummy_server
+  module:
+    - node
+    - search_api
+_core:
+  default_config_hash: ev8q3pUNKIf2CF_VSsS_ZCvXcwq0cFgnqSXqkUiMo2g
+id: article_index
+name: 'Article index'
+description: ''
+read_only: false
+field_settings:
+  field_article_type:
+    label: 'Article type'
+    datasource_id: 'entity:node'
+    property_path: field_article_type
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_article_type
+  title:
+    label: Title
+    datasource_id: 'entity:node'
+    property_path: title
+    type: string
+    dependencies:
+      module:
+        - node
+datasource_settings:
+  'entity:node':
+    bundles:
+      default: false
+      selected:
+        - article
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  entity_type: {  }
+  ignorecase:
+    weights:
+      preprocess_index: -20
+      preprocess_query: -20
+    all_fields: false
+    fields:
+      - field_article_type
+      - title
+  language_with_fallback: {  }
+  rendered_item: {  }
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  cron_limit: 50
+  index_directly: true
+  track_changes_in_references: true
+server: dummy_server

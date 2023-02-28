@@ -1,0 +1,7 @@
+name: Sitestudio custom menu template
+type: module
+description: 'Provides a menu template for site studio'
+core_version_requirement: ^9 || ^10
+package: 'Site Studio Cards'
+dependencies:
+  - cohesion:cohesion

@@ -1,0 +1,8 @@
+name: Site Studio Custom Default Helper
+type: module
+description: 'Provides a custom default helper for site studio'
+core_version_requirement: ^10
+package: 'Site Studio Cards'
+dependencies:
+  - cohesion:cohesion
+  - drupal:sitestudio_default_helper

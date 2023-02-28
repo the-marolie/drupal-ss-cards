@@ -1,0 +1,47 @@
+uuid: 4cdacaae-313b-4dd0-879c-6f1dae480d51
+langcode: en
+status: true
+dependencies: {  }
+id: pack_custom_style_link_with_arro
+label: 'Custom style - LInk with arrow'
+description: ''
+excluded_entity_types: '[]'
+settings: |
+  {
+      "0cd101a7-1fc8-4100-b50a-89475a5d302a": {
+          "type": "cohesion_custom_style",
+          "items": {
+              "44d57d55-763f-4387-bef9-8bf41476961e": {
+                  "type": "cohesion_color"
+              },
+              "c18ea6f2-1f8b-439f-b2a1-23b98a348844": {
+                  "type": "cohesion_color"
+              },
+              "e396aeed-0cd7-4e9a-8571-54ec03d77f0e": {
+                  "type": "cohesion_color"
+              },
+              "0cd101a7-1fc8-4100-b50a-89475a5d302a": {
+                  "type": "cohesion_custom_style"
+              },
+              "e8b93ab6-f6ac-49bb-99ec-e24d8cb08bef": {
+                  "type": "cohesion_font_stack"
+              },
+              "bbd647ac-229d-40a5-b288-f17f61fe83bd": {
+                  "type": "cohesion_icon_library"
+              },
+              "247caa3f-796c-4108-94cb-2cdce4775776": {
+                  "type": "file"
+              },
+              "6db1f77c-53cb-469a-9f09-f91f93c76ce2": {
+                  "type": "file"
+              },
+              "8db53f43-d323-4cd3-a252-4731c28f4b34": {
+                  "type": "file"
+              },
+              "bdd2c893-32a0-415f-8db6-efb2690dcf81": {
+                  "type": "file"
+              }
+          },
+          "checked": true
+      }
+  }

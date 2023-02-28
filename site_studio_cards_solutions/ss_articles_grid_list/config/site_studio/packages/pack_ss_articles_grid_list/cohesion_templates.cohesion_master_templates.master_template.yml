@@ -1,0 +1,114 @@
+uuid: ba55c3fa-01d2-4d3b-ae69-05046caa8f25
+langcode: en
+status: true
+dependencies:
+  config:
+    - cohesion_elements.cohesion_component.cpt_site_header
+label: 'Master template'
+id: master_template
+json_values: |
+  {
+      "canvas": [
+          {
+              "uid": "cpt_site_header",
+              "type": "component",
+              "title": "Site header",
+              "enabled": true,
+              "category": "category-15",
+              "componentId": "cpt_site_header",
+              "componentType": "container",
+              "iconColor": "custom",
+              "uuid": "87efe979-2650-41ea-a5a1-2f194452caab",
+              "parentUid": "root",
+              "status": {},
+              "children": []
+          },
+          {
+              "type": "container",
+              "uid": "container",
+              "title": "Container",
+              "status": {
+                  "collapsed": false
+              },
+              "iconColor": "layout",
+              "uuid": "c518d2c1-e5eb-42b1-ba91-c0f8d52b916b",
+              "parentUid": "root",
+              "children": [
+                  {
+                      "type": "item",
+                      "uid": "drupal-region",
+                      "title": "Region",
+                      "status": {
+                          "collapsed": true
+                      },
+                      "iconColor": "drupal",
+                      "uuid": "34403de5-b84e-463e-82fb-a1678de190a8",
+                      "parentUid": "container",
+                      "children": []
+                  }
+              ]
+          }
+      ],
+      "mapper": {
+          "34403de5-b84e-463e-82fb-a1678de190a8": {
+              "settings": {
+                  "formDefinition": [
+                      {
+                          "formKey": "region-settings",
+                          "children": [
+                              {
+                                  "formKey": "region-type",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "type",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "selectorType": "topLevel",
+                  "form": null,
+                  "items": [],
+                  "title": "Default"
+              }
+          },
+          "c518d2c1-e5eb-42b1-ba91-c0f8d52b916b": {}
+      },
+      "model": {
+          "87efe979-2650-41ea-a5a1-2f194452caab": {},
+          "c518d2c1-e5eb-42b1-ba91-c0f8d52b916b": {
+              "settings": {
+                  "width": "fluid"
+              }
+          },
+          "34403de5-b84e-463e-82fb-a1678de190a8": {
+              "settings": {
+                  "title": "Region",
+                  "region": {
+                      "theme": "cohesion_child_theme",
+                      "type": "content"
+                  }
+              }
+          }
+      },
+      "previewModel": {
+          "34403de5-b84e-463e-82fb-a1678de190a8": {}
+      },
+      "variableFields": {
+          "34403de5-b84e-463e-82fb-a1678de190a8": []
+      },
+      "meta": {
+          "fieldHistory": []
+      }
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: true
+selectable: true
+custom: false
+twig_template: page--cohesion--master-template
+default: true

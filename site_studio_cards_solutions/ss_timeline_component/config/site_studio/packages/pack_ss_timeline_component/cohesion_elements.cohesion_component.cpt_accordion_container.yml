@@ -1,0 +1,272 @@
+uuid: 7b621d22-fc57-4e92-91e0-9a27fc7ba6c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - cohesion_elements.cohesion_component_category.cpt_cat_accordion_components
+label: 'Accordion container'
+id: cpt_accordion_container
+json_values: |
+  {
+      "canvas": [
+          {
+              "type": "container",
+              "uid": "container",
+              "title": "Container",
+              "status": {
+                  "collapsed": false
+              },
+              "iconColor": "layout",
+              "uuid": "52bceeef-57c6-46cd-8e96-893ddfc1494f",
+              "parentUid": "root",
+              "children": [
+                  {
+                      "type": "container",
+                      "uid": "accordion-tabs-container",
+                      "title": "Accordion tabs container",
+                      "status": {
+                          "collapsed": false
+                      },
+                      "iconColor": "interactive",
+                      "uuid": "187b6407-fb29-4007-90a2-9f9541bad9e1",
+                      "parentUid": "container",
+                      "children": [
+                          {
+                              "type": "item",
+                              "uid": "component-drop-zone-placeholder",
+                              "title": "Component drop zone",
+                              "status": {
+                                  "collapsed": true
+                              },
+                              "iconColor": "content",
+                              "uuid": "c4f99ff8-770f-4133-8062-66a9c2496f2a",
+                              "parentUid": "accordion-tabs-container",
+                              "children": []
+                          }
+                      ]
+                  }
+              ]
+          }
+      ],
+      "componentForm": [],
+      "mapper": {
+          "52bceeef-57c6-46cd-8e96-893ddfc1494f": {},
+          "187b6407-fb29-4007-90a2-9f9541bad9e1": {
+              "settings": {
+                  "formDefinition": [
+                      {
+                          "formKey": "accordion-tabs-container-settings",
+                          "children": [
+                              {
+                                  "formKey": "accordion-tabs-container-accordion-or-tab",
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ],
+                                  "activeFields": [
+                                      {
+                                          "name": "accordionOrTab",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "accordion-tabs-container-transition",
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ],
+                                  "activeFields": [
+                                      {
+                                          "name": "accordionTransition",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "accordionTransitionSpeed",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "accordionTransitionSpeedCustom",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "accordion-tabs-container-start-state",
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ],
+                                  "activeFields": [
+                                      {
+                                          "name": "startCollapsed",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "active",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      },
+                      {
+                          "formKey": "accordion-tabs-container-accordion-accordion-settings",
+                          "children": [
+                              {
+                                  "formKey": "accordion-tabs-container-behavior",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "scrollToAccordion",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "setHash",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "accordion-tabs-container-offset-scroll-position",
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ],
+                                  "activeFields": [
+                                      {
+                                          "name": "offsetPositionAgainst",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "accordionOffsetPx",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "accordionOffsetClass",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      },
+                      {
+                          "formKey": "accordion-tabs-container-tab-settings",
+                          "children": [
+                              {
+                                  "formKey": "accordion-tabs-container-position",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "horizontalVertical",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "HorizontalPosition",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "VerticalPosition",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "accordionTabWidth",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "accordionTabBleed",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "accordion-tabs-container-width",
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ],
+                                  "activeFields": [
+                                      {
+                                          "name": "accordionTabWidth",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "accordionTabBleed",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "selectorType": "topLevel",
+                  "form": null,
+                  "items": [],
+                  "title": "Default"
+              }
+          },
+          "c4f99ff8-770f-4133-8062-66a9c2496f2a": {}
+      },
+      "model": {
+          "52bceeef-57c6-46cd-8e96-893ddfc1494f": {
+              "settings": {
+                  "width": "fluid"
+              }
+          },
+          "187b6407-fb29-4007-90a2-9f9541bad9e1": {
+              "settings": {
+                  "styles": {
+                      "xl": {
+                          "accordionOrTab": "accordion",
+                          "collapsible": true,
+                          "startCollapsed": "true",
+                          "animation": "slide",
+                          "offsetPositionAgainst": "px",
+                          "duration": 700,
+                          "scrollToAccordionOffset": 0,
+                          "accordionTabWidth": -2,
+                          "accordionTabBleed": "retain_gutters"
+                      }
+                  },
+                  "scrollToAccordion": false,
+                  "setHash": false,
+                  "horizontalVertical": "horizontal_top",
+                  "HorizontalPosition": "left_aligned",
+                  "VerticalPosition": "left",
+                  "title": "Accordion tabs container"
+              }
+          },
+          "c4f99ff8-770f-4133-8062-66a9c2496f2a": {
+              "settings": {
+                  "dropzoneHideSelector": ""
+              }
+          }
+      },
+      "previewModel": {
+          "187b6407-fb29-4007-90a2-9f9541bad9e1": {}
+      },
+      "variableFields": {
+          "187b6407-fb29-4007-90a2-9f9541bad9e1": []
+      },
+      "disabledNodes": [],
+      "meta": {
+          "fieldHistory": []
+      }
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: true
+selectable: true
+category: cpt_cat_accordion_components
+preview_image: ''
+has_quick_edit: null
+entity_type_access: {  }
+bundle_access: {  }
+twig_template: component--cohesion-cpt-accordion-container
+weight: 0

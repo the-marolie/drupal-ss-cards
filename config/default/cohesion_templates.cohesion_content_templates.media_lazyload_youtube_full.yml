@@ -1,0 +1,18 @@
+uuid: 5452c094-1e11-4ca1-94ee-eb9a07634062
+langcode: en
+status: false
+dependencies: {  }
+label: 'Full content (Media, Lazyload Youtube)'
+id: media_lazyload_youtube_full
+json_values: '{"canvas":[],"mapper":null,"model":[]}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+modified: false
+selectable: false
+custom: false
+twig_template: null
+default: false
+entity_type: media
+bundle: lazyload_youtube
+view_mode: full
+master_template: ''

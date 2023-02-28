@@ -1,0 +1,9 @@
+uuid: c8f83de8-36ce-4c70-8b80-e360ef858cd5
+langcode: en
+status: true
+dependencies: {  }
+id: pack_custom_hero_component
+label: 'Custom Hero Component'
+description: ''
+excluded_entity_types: '[]'
+settings: '{"86dd6404-d56f-4fd1-9ef7-60ae0d051d8f":{"type":"cohesion_component","items":{"86dd6404-d56f-4fd1-9ef7-60ae0d051d8f":{"type":"cohesion_component"},"fc843933-89c7-46de-ba23-cba9b6f21275":{"type":"cohesion_component_category"},"3a91bd93-5a8f-42a1-807d-935d23bd6f57":{"type":"cohesion_custom_style"},"6ab0ec11-716d-479a-9222-402c2f7283f4":{"type":"cohesion_custom_style"},"cb79f7bb-060b-4c38-9685-2904a4691290":{"type":"cohesion_custom_style"},"12eb1358-0f9b-4885-8d72-1d991aff863f":{"type":"file"}},"checked":true}}'

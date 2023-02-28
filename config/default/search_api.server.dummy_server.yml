@@ -1,0 +1,16 @@
+uuid: 38c399de-b40d-4d8b-91a8-51cbf59cb15e
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_db
+_core:
+  default_config_hash: a_VySbo4-dRQMBJiX6zQYndTrE2iUL3qqHiQ2Ot8tU8
+id: dummy_server
+name: 'Dummy server'
+description: ''
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  min_chars: 1
+  matching: words

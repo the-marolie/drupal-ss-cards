@@ -1,0 +1,7 @@
+name: Site Studio Custom Style Guide
+type: module
+description: 'Provides a custom default style guide for site studio'
+core_version_requirement: ^10
+package: 'Site Studio Cards'
+dependencies:
+  - cohesion:cohesion

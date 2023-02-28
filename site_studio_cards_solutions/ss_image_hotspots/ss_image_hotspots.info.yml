@@ -2,5 +2,6 @@ name: Custom Image Hotspots Component
 type: module
 description: 'Provides a custom component to create hotspots in an image'
 core_version_requirement: ^9 || ^10
+package: 'Site Studio Cards'
 dependencies:
   - cohesion:cohesion

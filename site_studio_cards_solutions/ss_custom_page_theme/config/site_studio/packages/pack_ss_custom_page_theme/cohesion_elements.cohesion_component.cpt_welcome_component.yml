@@ -1,0 +1,182 @@
+uuid: 33e5e141-caae-43f9-a5c6-ffb2a0d4ea5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - cohesion_elements.cohesion_component_category.cpt_cat_uncategorized
+label: 'Welcome Component'
+id: cpt_welcome_component
+json_values: |
+  {
+      "canvas": [
+          {
+              "type": "item",
+              "uid": "ss_custom_page_theme",
+              "isCustom": true,
+              "title": "Full Name",
+              "selected": false,
+              "status": {
+                  "collapsed": true
+              },
+              "iconColor": "custom",
+              "uuid": "c65f244f-4f06-498f-b28a-f90d35504661",
+              "parentUid": "root",
+              "children": []
+          },
+          {
+              "type": "container",
+              "uid": "link",
+              "title": "Link",
+              "status": {
+                  "collapsed": true
+              },
+              "iconColor": "content",
+              "uuid": "3bd11a0f-63d7-4363-938e-85ec2bc524f2",
+              "parentUid": "root",
+              "children": []
+          }
+      ],
+      "componentForm": [
+          {
+              "type": "form-field",
+              "uid": "form-input",
+              "title": "Input",
+              "translate": true,
+              "status": {
+                  "collapsed": false
+              },
+              "iconColor": "formField",
+              "uuid": "39623bf2-fae5-4419-bca9-00fe22d2b7e6",
+              "parentUid": "root",
+              "children": []
+          },
+          {
+              "type": "form-field",
+              "uid": "form-input",
+              "title": "Input",
+              "translate": true,
+              "status": {
+                  "collapsed": false
+              },
+              "iconColor": "formField",
+              "uuid": "a8f1b444-9fb7-4c4b-88da-66f034f5775d",
+              "parentUid": "root",
+              "children": []
+          }
+      ],
+      "mapper": {
+          "c65f244f-4f06-498f-b28a-f90d35504661": {
+              "settings": {
+                  "formDefinition": [
+                      {
+                          "formKey": "ss_custom_page_theme_settings",
+                          "children": [
+                              {
+                                  "formKey": "ss_custom_page_theme_dynamic",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "src",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "selectorType": "topLevel",
+                  "form": null,
+                  "items": [],
+                  "title": "Default"
+              }
+          },
+          "39623bf2-fae5-4419-bca9-00fe22d2b7e6": {},
+          "a8f1b444-9fb7-4c4b-88da-66f034f5775d": {},
+          "3bd11a0f-63d7-4363-938e-85ec2bc524f2": {}
+      },
+      "model": {
+          "c65f244f-4f06-498f-b28a-f90d35504661": {
+              "settings": {
+                  "title": "Full Name",
+                  "first_name": "[field.39623bf2-fae5-4419-bca9-00fe22d2b7e6]",
+                  "last_name": "[field.a8f1b444-9fb7-4c4b-88da-66f034f5775d]",
+                  "first_field": "[field.39623bf2-fae5-4419-bca9-00fe22d2b7e6]",
+                  "second_field": "[field.a8f1b444-9fb7-4c4b-88da-66f034f5775d]"
+              }
+          },
+          "39623bf2-fae5-4419-bca9-00fe22d2b7e6": {
+              "settings": {
+                  "title": "Field label",
+                  "schema": {
+                      "type": "string",
+                      "escape": true
+                  },
+                  "machineName": "first-field",
+                  "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": "First name"
+              }
+          },
+          "a8f1b444-9fb7-4c4b-88da-66f034f5775d": {
+              "settings": {
+                  "title": "Field label",
+                  "schema": {
+                      "type": "string",
+                      "escape": true
+                  },
+                  "machineName": "second-field",
+                  "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": "Last name"
+              }
+          }
+      },
+      "previewModel": {
+          "39623bf2-fae5-4419-bca9-00fe22d2b7e6": {},
+          "a8f1b444-9fb7-4c4b-88da-66f034f5775d": {},
+          "c65f244f-4f06-498f-b28a-f90d35504661": {
+              "settings": {
+                  "title": "Full Name"
+              }
+          }
+      },
+      "variableFields": {
+          "39623bf2-fae5-4419-bca9-00fe22d2b7e6": [],
+          "a8f1b444-9fb7-4c4b-88da-66f034f5775d": [],
+          "c65f244f-4f06-498f-b28a-f90d35504661": [
+              "settings.first_name",
+              "settings.last_name",
+              "settings.first_field",
+              "settings.second_field"
+          ]
+      },
+      "disabledNodes": [],
+      "meta": {
+          "fieldHistory": [
+              {
+                  "uuid": "a8f1b444-9fb7-4c4b-88da-66f034f5775d",
+                  "type": "form-input",
+                  "machineName": "second-field"
+              },
+              {
+                  "uuid": "39623bf2-fae5-4419-bca9-00fe22d2b7e6",
+                  "type": "form-input",
+                  "machineName": "first-field"
+              }
+          ]
+      }
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: true
+selectable: true
+category: cpt_cat_uncategorized
+preview_image: ''
+has_quick_edit: null
+entity_type_access: {  }
+bundle_access: {  }
+twig_template: component--cohesion-cpt-welcome-component
+weight: 0

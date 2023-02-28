@@ -1,0 +1,9 @@
+ss_custom_page_theme.welcome:
+  path: '/welcome'
+  defaults:
+    _controller: '\Drupal\ss_custom_page_theme\Controller\WelcomeController::content'
+    _title: ''
+  options:
+    ss_master_template: 'mstr_tpl_welcome_page'
+  requirements:
+    _access: 'TRUE'

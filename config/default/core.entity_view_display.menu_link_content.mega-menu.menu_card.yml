@@ -1,0 +1,27 @@
+uuid: 3c8e78b1-7586-46e5-bb40-ed1cbb38199a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.menu_link_content.menu_card
+    - field.field.menu_link_content.mega-menu.field_menu_card
+    - system.menu.mega-menu
+  module:
+    - cohesion_elements
+id: menu_link_content.mega-menu.menu_card
+targetEntityType: menu_link_content
+bundle: mega-menu
+mode: menu_card
+content:
+  field_menu_card:
+    type: cohesion_entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  children: true
+  search_api_excerpt: true

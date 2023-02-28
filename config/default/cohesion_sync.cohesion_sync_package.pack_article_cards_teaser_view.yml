@@ -1,0 +1,9 @@
+uuid: a8489a54-f8db-4bb9-8789-150d34196637
+langcode: en
+status: true
+dependencies: {  }
+id: pack_article_cards_teaser_view
+label: 'Article cards - teaser view'
+description: ''
+excluded_entity_types: '[]'
+settings: '{"936c3ca7-7ca3-498f-b389-c6375307cc03":{"type":"cohesion_content_templates","items":{"8ea23c61-26b4-471f-ab5d-716253259043":{"type":"cohesion_color"},"44d57d55-763f-4387-bef9-8bf41476961e":{"type":"cohesion_color"},"936c3ca7-7ca3-498f-b389-c6375307cc03":{"type":"cohesion_content_templates"},"f706272e-c6eb-45a2-927a-bfd47abe1c74":{"type":"cohesion_font_stack"},"bbd647ac-229d-40a5-b288-f17f61fe83bd":{"type":"cohesion_icon_library"},"2fc9ebdb-73e6-4ff1-823b-a5b6cb4a1f3f":{"type":"file"},"3cb78e9d-ece1-4e06-af64-9c35bca5968a":{"type":"file"},"51b18abc-35ac-4e58-b277-b0dd42205e38":{"type":"file"},"5ed2007b-4b44-469c-a156-999b8da4b05a":{"type":"file"},"9f891f9a-4e0d-4b77-844e-5a63b30b4099":{"type":"image_style"}},"checked":true}}'

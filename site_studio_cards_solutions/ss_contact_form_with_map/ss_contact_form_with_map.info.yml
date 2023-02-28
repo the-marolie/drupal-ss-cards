@@ -2,6 +2,7 @@ name: Contact form with google map
 type: module
 description: 'Provides a component with contact form and google map'
 core_version_requirement: ^9 || ^10
+package: 'Site Studio Cards'
 dependencies:
   - cohesion:cohesion
   - webform:webform
