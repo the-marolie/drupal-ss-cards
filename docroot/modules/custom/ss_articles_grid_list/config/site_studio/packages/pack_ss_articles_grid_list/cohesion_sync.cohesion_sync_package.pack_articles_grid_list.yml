@@ -1,0 +1,260 @@
+uuid: 373c4c60-f876-4df8-8c3c-dd566a8e3aac
+langcode: en
+status: true
+dependencies: {  }
+id: pack_articles_grid_list
+label: 'Articles grid list'
+description: ''
+excluded_entity_types: '[]'
+settings: |
+  {
+      "7a43ba04-4400-4ac7-99d3-7ea371b907ce": {
+          "type": "cohesion_component",
+          "items": {
+              "e396aeed-0cd7-4e9a-8571-54ec03d77f0e": {
+                  "type": "cohesion_color"
+              },
+              "44d57d55-763f-4387-bef9-8bf41476961e": {
+                  "type": "cohesion_color"
+              },
+              "177aa66a-69e3-40c6-a96e-61fe526b2f6f": {
+                  "type": "cohesion_color"
+              },
+              "c18ea6f2-1f8b-439f-b2a1-23b98a348844": {
+                  "type": "cohesion_color"
+              },
+              "7a43ba04-4400-4ac7-99d3-7ea371b907ce": {
+                  "type": "cohesion_component"
+              },
+              "d8643448-1ab6-4c34-a7cc-29bcb571f3ca": {
+                  "type": "cohesion_component"
+              },
+              "ca5b5234-9727-44e8-8cfc-c179b43dd791": {
+                  "type": "cohesion_component_category"
+              },
+              "fa4d3549-dea7-4c9d-96d4-6e006924d716": {
+                  "type": "cohesion_component_category"
+              },
+              "97eb6347-6aab-41db-9f4d-cb826ce47765": {
+                  "type": "cohesion_custom_style"
+              },
+              "e89efe54-1332-4a6b-9b32-76aa9cb22abf": {
+                  "type": "cohesion_custom_style"
+              },
+              "f706272e-c6eb-45a2-927a-bfd47abe1c74": {
+                  "type": "cohesion_font_stack"
+              },
+              "bbd647ac-229d-40a5-b288-f17f61fe83bd": {
+                  "type": "cohesion_icon_library"
+              },
+              "ba55c3fa-01d2-4d3b-ae69-05046caa8f25": {
+                  "type": "cohesion_master_templates"
+              },
+              "aa23fd74-6d20-41f1-86de-ad9ee94c94b5": {
+                  "type": "cohesion_menu_templates"
+              },
+              "4e6a9cc8-9dda-4a07-8d09-bc935a643cc5": {
+                  "type": "cohesion_view_templates"
+              },
+              "2fc9ebdb-73e6-4ff1-823b-a5b6cb4a1f3f": {
+                  "type": "file"
+              },
+              "3cb78e9d-ece1-4e06-af64-9c35bca5968a": {
+                  "type": "file"
+              },
+              "51b18abc-35ac-4e58-b277-b0dd42205e38": {
+                  "type": "file"
+              },
+              "5ed2007b-4b44-469c-a156-999b8da4b05a": {
+                  "type": "file"
+              },
+              "5333b0fb-6d8d-4ae2-8aaa-068b86fbd3e8": {
+                  "type": "view"
+              }
+          },
+          "checked": true
+      },
+      "936c3ca7-7ca3-498f-b389-c6375307cc03": {
+          "type": "cohesion_content_templates",
+          "items": {
+              "44d57d55-763f-4387-bef9-8bf41476961e": {
+                  "type": "cohesion_color"
+              },
+              "8ea23c61-26b4-471f-ab5d-716253259043": {
+                  "type": "cohesion_color"
+              },
+              "936c3ca7-7ca3-498f-b389-c6375307cc03": {
+                  "type": "cohesion_content_templates"
+              },
+              "f706272e-c6eb-45a2-927a-bfd47abe1c74": {
+                  "type": "cohesion_font_stack"
+              },
+              "bbd647ac-229d-40a5-b288-f17f61fe83bd": {
+                  "type": "cohesion_icon_library"
+              },
+              "2fc9ebdb-73e6-4ff1-823b-a5b6cb4a1f3f": {
+                  "type": "file"
+              },
+              "3cb78e9d-ece1-4e06-af64-9c35bca5968a": {
+                  "type": "file"
+              },
+              "51b18abc-35ac-4e58-b277-b0dd42205e38": {
+                  "type": "file"
+              },
+              "5ed2007b-4b44-469c-a156-999b8da4b05a": {
+                  "type": "file"
+              },
+              "9f891f9a-4e0d-4b77-844e-5a63b30b4099": {
+                  "type": "image_style"
+              }
+          },
+          "checked": true
+      },
+      "e89efe54-1332-4a6b-9b32-76aa9cb22abf": {
+          "type": "cohesion_custom_style",
+          "items": {
+              "c18ea6f2-1f8b-439f-b2a1-23b98a348844": {
+                  "type": "cohesion_color"
+              },
+              "e89efe54-1332-4a6b-9b32-76aa9cb22abf": {
+                  "type": "cohesion_custom_style"
+              },
+              "f706272e-c6eb-45a2-927a-bfd47abe1c74": {
+                  "type": "cohesion_font_stack"
+              }
+          },
+          "checked": true
+      },
+      "97eb6347-6aab-41db-9f4d-cb826ce47765": {
+          "type": "cohesion_custom_style",
+          "items": {
+              "c18ea6f2-1f8b-439f-b2a1-23b98a348844": {
+                  "type": "cohesion_color"
+              },
+              "97eb6347-6aab-41db-9f4d-cb826ce47765": {
+                  "type": "cohesion_custom_style"
+              }
+          },
+          "checked": true
+      },
+      "4e6a9cc8-9dda-4a07-8d09-bc935a643cc5": {
+          "type": "cohesion_view_templates",
+          "items": {
+              "44d57d55-763f-4387-bef9-8bf41476961e": {
+                  "type": "cohesion_color"
+              },
+              "e396aeed-0cd7-4e9a-8571-54ec03d77f0e": {
+                  "type": "cohesion_color"
+              },
+              "177aa66a-69e3-40c6-a96e-61fe526b2f6f": {
+                  "type": "cohesion_color"
+              },
+              "c18ea6f2-1f8b-439f-b2a1-23b98a348844": {
+                  "type": "cohesion_color"
+              },
+              "d8643448-1ab6-4c34-a7cc-29bcb571f3ca": {
+                  "type": "cohesion_component"
+              },
+              "ca5b5234-9727-44e8-8cfc-c179b43dd791": {
+                  "type": "cohesion_component_category"
+              },
+              "97eb6347-6aab-41db-9f4d-cb826ce47765": {
+                  "type": "cohesion_custom_style"
+              },
+              "e89efe54-1332-4a6b-9b32-76aa9cb22abf": {
+                  "type": "cohesion_custom_style"
+              },
+              "f706272e-c6eb-45a2-927a-bfd47abe1c74": {
+                  "type": "cohesion_font_stack"
+              },
+              "bbd647ac-229d-40a5-b288-f17f61fe83bd": {
+                  "type": "cohesion_icon_library"
+              },
+              "ba55c3fa-01d2-4d3b-ae69-05046caa8f25": {
+                  "type": "cohesion_master_templates"
+              },
+              "aa23fd74-6d20-41f1-86de-ad9ee94c94b5": {
+                  "type": "cohesion_menu_templates"
+              },
+              "4e6a9cc8-9dda-4a07-8d09-bc935a643cc5": {
+                  "type": "cohesion_view_templates"
+              },
+              "2fc9ebdb-73e6-4ff1-823b-a5b6cb4a1f3f": {
+                  "type": "file"
+              },
+              "3cb78e9d-ece1-4e06-af64-9c35bca5968a": {
+                  "type": "file"
+              },
+              "51b18abc-35ac-4e58-b277-b0dd42205e38": {
+                  "type": "file"
+              },
+              "5ed2007b-4b44-469c-a156-999b8da4b05a": {
+                  "type": "file"
+              },
+              "5333b0fb-6d8d-4ae2-8aaa-068b86fbd3e8": {
+                  "type": "view"
+              }
+          },
+          "checked": true
+      },
+      "5333b0fb-6d8d-4ae2-8aaa-068b86fbd3e8": {
+          "type": "view",
+          "items": {
+              "44d57d55-763f-4387-bef9-8bf41476961e": {
+                  "type": "cohesion_color"
+              },
+              "e396aeed-0cd7-4e9a-8571-54ec03d77f0e": {
+                  "type": "cohesion_color"
+              },
+              "177aa66a-69e3-40c6-a96e-61fe526b2f6f": {
+                  "type": "cohesion_color"
+              },
+              "c18ea6f2-1f8b-439f-b2a1-23b98a348844": {
+                  "type": "cohesion_color"
+              },
+              "d8643448-1ab6-4c34-a7cc-29bcb571f3ca": {
+                  "type": "cohesion_component"
+              },
+              "ca5b5234-9727-44e8-8cfc-c179b43dd791": {
+                  "type": "cohesion_component_category"
+              },
+              "97eb6347-6aab-41db-9f4d-cb826ce47765": {
+                  "type": "cohesion_custom_style"
+              },
+              "e89efe54-1332-4a6b-9b32-76aa9cb22abf": {
+                  "type": "cohesion_custom_style"
+              },
+              "f706272e-c6eb-45a2-927a-bfd47abe1c74": {
+                  "type": "cohesion_font_stack"
+              },
+              "bbd647ac-229d-40a5-b288-f17f61fe83bd": {
+                  "type": "cohesion_icon_library"
+              },
+              "ba55c3fa-01d2-4d3b-ae69-05046caa8f25": {
+                  "type": "cohesion_master_templates"
+              },
+              "aa23fd74-6d20-41f1-86de-ad9ee94c94b5": {
+                  "type": "cohesion_menu_templates"
+              },
+              "4e6a9cc8-9dda-4a07-8d09-bc935a643cc5": {
+                  "type": "cohesion_view_templates"
+              },
+              "2fc9ebdb-73e6-4ff1-823b-a5b6cb4a1f3f": {
+                  "type": "file"
+              },
+              "3cb78e9d-ece1-4e06-af64-9c35bca5968a": {
+                  "type": "file"
+              },
+              "51b18abc-35ac-4e58-b277-b0dd42205e38": {
+                  "type": "file"
+              },
+              "5ed2007b-4b44-469c-a156-999b8da4b05a": {
+                  "type": "file"
+              },
+              "5333b0fb-6d8d-4ae2-8aaa-068b86fbd3e8": {
+                  "type": "view"
+              }
+          },
+          "checked": true
+      }
+  }

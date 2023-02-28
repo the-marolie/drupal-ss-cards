@@ -1,0 +1,33 @@
+<?php
+
+
+/**
+ * Implements hook_theme_suggestions_page_alter().
+ */
+function ss_custom_page_theme_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+    // See cohesion_templates_theme_suggestions_page_alter() for reference.
+    $route = \Drupal::routeMatch()->getRouteObject();
+    if (!empty($master_template = $route->getOption('ss_master_template'))) {
+      $suggestions[] = 'page__cohesion__' . $master_template;
+    }
+  }
+
+/**
+ * Implements hook_theme().
+ */
+function ss_custom_page_theme_theme($existing, $type, $theme, $path) {
+  return [
+    'ss_custom_page_theme_form' => [
+        'template' => 'welcome-form',
+        'variables' => [
+            'elementSettings' => NULL,
+            'elementMarkup' => NULL,
+            'elementContext' => NULL,
+            'elementClass' => NULL,
+            'elementChildren' => NULL,
+          ],
+          'render element' => 'children',
+        ],
+  ];
+}
+

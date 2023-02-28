@@ -1,0 +1,220 @@
+uuid: 547d50ea-676b-4a2b-a8e9-503372f5a440
+langcode: en
+status: true
+dependencies:
+  config:
+    - cohesion_custom_styles.cohesion_custom_style.a2089ca9
+    - cohesion_elements.cohesion_component_category.cpt_cat_elements
+label: Button
+id: cpt_button
+json_values: |
+  {
+      "canvas": [
+          {
+              "type": "container",
+              "uid": "link",
+              "title": "Link",
+              "status": {
+                  "collapsed": true
+              },
+              "iconColor": "content",
+              "uuid": "da21c04e-fa09-47af-8403-a49dfcb189b1",
+              "parentUid": "root",
+              "children": []
+          }
+      ],
+      "componentForm": [
+          {
+              "type": "form-field",
+              "uid": "form-input",
+              "title": "Input",
+              "translate": true,
+              "status": {
+                  "collapsed": false
+              },
+              "iconColor": "formField",
+              "uuid": "faacea9f-16cf-4521-b3ba-b5eb385ada9a",
+              "parentUid": "root",
+              "children": []
+          },
+          {
+              "type": "form-field",
+              "uid": "form-link",
+              "title": "Link to page",
+              "translate": true,
+              "status": {
+                  "collapsed": false
+              },
+              "iconColor": "formField",
+              "uuid": "a91484e1-de0f-4ce4-80c2-b7fa052d74b9",
+              "parentUid": "root",
+              "children": []
+          }
+      ],
+      "mapper": {
+          "da21c04e-fa09-47af-8403-a49dfcb189b1": {
+              "settings": {
+                  "formDefinition": [
+                      {
+                          "formKey": "link-settings",
+                          "children": [
+                              {
+                                  "formKey": "link-link",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "titleAttribute",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "link-modifier",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "modifierType",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "link-animation",
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ],
+                                  "activeFields": [
+                                      {
+                                          "name": "animationType",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "link-style",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "customStyle",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "selectorType": "topLevel",
+                  "form": null,
+                  "items": [],
+                  "title": "Default"
+              }
+          },
+          "faacea9f-16cf-4521-b3ba-b5eb385ada9a": {},
+          "a91484e1-de0f-4ce4-80c2-b7fa052d74b9": {}
+      },
+      "model": {
+          "da21c04e-fa09-47af-8403-a49dfcb189b1": {
+              "settings": {
+                  "title": "Link",
+                  "customStyle": [
+                      {
+                          "customStyle": "coh-style-blue-button"
+                      }
+                  ],
+                  "type": "internal-page",
+                  "target": "_self",
+                  "linkToPage": "[field.a91484e1-de0f-4ce4-80c2-b7fa052d74b9]",
+                  "linkText": "[field.faacea9f-16cf-4521-b3ba-b5eb385ada9a]"
+              }
+          },
+          "faacea9f-16cf-4521-b3ba-b5eb385ada9a": {
+              "settings": {
+                  "title": "Button text",
+                  "schema": {
+                      "type": "string",
+                      "escape": true
+                  },
+                  "machineName": "button-text",
+                  "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": "A button"
+              }
+          },
+          "a91484e1-de0f-4ce4-80c2-b7fa052d74b9": {
+              "settings": {
+                  "isStyle": true,
+                  "type": "cohTypeahead",
+                  "key": "linkToPage",
+                  "title": "Button link",
+                  "placeholder": "Type page name",
+                  "labelProperty": "name",
+                  "valueProperty": "id",
+                  "typeaheadEditable": true,
+                  "endpoint": "\/cohesionapi\/link-autocomplete?q=",
+                  "schema": {
+                      "type": "string"
+                  },
+                  "machineName": "button-link",
+                  "tooltipPlacement": "auto right",
+                  "entityTypes": false
+              },
+              "model": {
+                  "value": "https:\/\/example.org"
+              }
+          }
+      },
+      "previewModel": {
+          "da21c04e-fa09-47af-8403-a49dfcb189b1": {
+              "settings": {
+                  "title": "Link",
+                  "type": "internal-page",
+                  "target": "_self",
+                  "customStyle": [
+                      {
+                          "customStyle": "coh-style-blue-button"
+                      }
+                  ]
+              }
+          },
+          "faacea9f-16cf-4521-b3ba-b5eb385ada9a": {},
+          "a91484e1-de0f-4ce4-80c2-b7fa052d74b9": {}
+      },
+      "variableFields": {
+          "da21c04e-fa09-47af-8403-a49dfcb189b1": [
+              "settings.linkToPage",
+              "settings.linkText"
+          ],
+          "faacea9f-16cf-4521-b3ba-b5eb385ada9a": [],
+          "a91484e1-de0f-4ce4-80c2-b7fa052d74b9": []
+      },
+      "disabledNodes": [],
+      "meta": {
+          "fieldHistory": [
+              {
+                  "uuid": "a91484e1-de0f-4ce4-80c2-b7fa052d74b9",
+                  "type": "form-link",
+                  "machineName": "button-link"
+              },
+              {
+                  "uuid": "faacea9f-16cf-4521-b3ba-b5eb385ada9a",
+                  "type": "form-input",
+                  "machineName": "button-text"
+              }
+          ]
+      }
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: true
+selectable: true
+category: cpt_cat_elements
+preview_image: ''
+has_quick_edit: null
+entity_type_access: {  }
+bundle_access: {  }
+twig_template: component--cohesion-cpt-button
+weight: 0

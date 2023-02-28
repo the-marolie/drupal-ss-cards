@@ -1,0 +1,7 @@
+-
+  type: default_module_package
+  source:
+    module_name: ss_custom_page_theme
+    path: /config/site_studio/packages/pack_ss_custom_page_theme
+  options:
+    extra-validation: false

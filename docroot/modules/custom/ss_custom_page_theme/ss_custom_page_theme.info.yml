@@ -1,0 +1,7 @@
+name: Site Studio Custom Page Theme
+type: module
+description: 'Enable themeing using site studio in custom routes'
+core_version_requirement: ^10
+package: 'Site Studio Cards'
+dependencies:
+  - cohesion:cohesion

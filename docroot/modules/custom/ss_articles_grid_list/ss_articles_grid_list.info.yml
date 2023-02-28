@@ -1,0 +1,7 @@
+name: Article grid list
+type: module
+description: 'Provides a component for listing articles in a grid with pagination'
+core_version_requirement: ^9 || ^10
+package: 'Site Studio Cards'
+dependencies:
+  - cohesion:cohesion

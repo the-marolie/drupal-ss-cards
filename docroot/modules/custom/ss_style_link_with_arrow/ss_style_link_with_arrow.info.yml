@@ -2,5 +2,6 @@ name: Custom Style - Link with arrow
 type: module
 description: 'Provides a custom style for site studio - link with arrow'
 core_version_requirement: ^9 || ^10
+package: 'Site Studio Cards'
 dependencies:
   - cohesion:cohesion

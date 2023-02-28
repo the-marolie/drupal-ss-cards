@@ -2,6 +2,7 @@ name: Custom Floating Feedback Form
 type: module
 description: 'Provides a custom floating feedback form'
 core_version_requirement: ^9 || ^10
+package: 'Site Studio Cards'
 dependencies:
   - cohesion:cohesion
   - webform:webform

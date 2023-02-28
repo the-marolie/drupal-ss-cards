@@ -1,0 +1,70 @@
+{#
+    /**
+     * @file
+     * Template file for custom welcome form using site studio
+     *
+     *
+     *
+     */
+    #}
+
+{% set styles %}
+
+<style>
+    .welcome-form-container {
+  max-width: 300px;
+  padding: 50px;
+  background: #7286d3;
+  border-radius: 5px;
+}
+.welcome-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+.welcome-form-container form .input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.welcome-form-container form .input-wrapper label {
+  color: #2B3467;
+  font-weight: bold;
+  font-size: 16px;
+}
+.welcome-form-container form .input-wrapper input {
+  border: 0;
+  background: transparent;
+  padding: 10px;
+  border: 1px solid #8ea7e9;
+  border-radius: 5px;
+  color: #fff;
+}
+.welcome-form-container form input[type=submit] {
+  width: 150px;
+  padding: 10px;
+  outline: 0;
+  border: 0;
+  background: #2B3467;
+  color: #fff;
+  cursor: pointer;
+}
+    </style>
+{% endset %}
+
+
+<div class="welcome-form-container">
+	<form action="/welcome" method="GET">
+		<div class="input-wrapper">
+			<label>{{elementSettings.first_field}}</label>
+			<input type="text" name="{{elementSettings.first_field | replace({' ': '_'}) | lower }}"/>
+		</div>
+		<div class="input-wrapper">
+			<label>{{elementSettings.second_field}}</label>
+			<input type="text" name="{{elementSettings.second_field | replace({' ': '_'}) | lower }}"/>
+		</div>
+		<input type="submit"/>
+	</form>
+</div>
+
+{{ renderInlineStyle(styles) }}

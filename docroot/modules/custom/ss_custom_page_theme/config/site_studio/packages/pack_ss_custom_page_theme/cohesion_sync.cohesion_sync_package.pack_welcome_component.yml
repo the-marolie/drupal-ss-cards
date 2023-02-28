@@ -1,0 +1,44 @@
+uuid: 6e380d42-25b5-4d3a-9216-8cc8f7c0584a
+langcode: en
+status: true
+dependencies: {  }
+id: pack_welcome_component
+label: 'Welcome component'
+description: ''
+excluded_entity_types: '[]'
+settings: |
+  {
+      "33e5e141-caae-43f9-a5c6-ffb2a0d4ea5b": {
+          "type": "cohesion_component",
+          "items": {
+              "33e5e141-caae-43f9-a5c6-ffb2a0d4ea5b": {
+                  "type": "cohesion_component"
+              },
+              "4e34c6f1-8aea-4b2b-ab3c-02c2701096a9": {
+                  "type": "cohesion_component_category"
+              }
+          },
+          "checked": true
+      },
+      "5f3f7365-f993-4c41-923f-ab8673239ca2": {
+          "type": "cohesion_component",
+          "items": {
+              "c18ea6f2-1f8b-439f-b2a1-23b98a348844": {
+                  "type": "cohesion_color"
+              },
+              "44d57d55-763f-4387-bef9-8bf41476961e": {
+                  "type": "cohesion_color"
+              },
+              "5f3f7365-f993-4c41-923f-ab8673239ca2": {
+                  "type": "cohesion_component"
+              },
+              "4e34c6f1-8aea-4b2b-ab3c-02c2701096a9": {
+                  "type": "cohesion_component_category"
+              },
+              "f706272e-c6eb-45a2-927a-bfd47abe1c74": {
+                  "type": "cohesion_font_stack"
+              }
+          },
+          "checked": true
+      }
+  }

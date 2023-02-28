@@ -1,0 +1,131 @@
+uuid: 64f3074a-7465-4ec7-bf7d-d33450ac17ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - cohesion_elements.cohesion_component_category.cpt_cat_elements
+label: 'Simple WYSIWYG'
+id: cpt_simple_wysiwyg
+json_values: |
+  {
+      "canvas": [
+          {
+              "type": "item",
+              "uid": "wysiwyg",
+              "title": "WYSIWYG",
+              "status": {
+                  "collapsed": true
+              },
+              "iconColor": "content",
+              "uuid": "d1ef7c2a-0012-4324-9abb-bc9ee78a185e",
+              "parentUid": "root",
+              "children": []
+          }
+      ],
+      "componentForm": [
+          {
+              "type": "form-field",
+              "uid": "form-wysiwyg",
+              "title": "WYSIWYG",
+              "translate": true,
+              "status": {
+                  "collapsed": false
+              },
+              "iconColor": "formField",
+              "uuid": "b18109db-d73a-4341-89f8-fec35fc85a61",
+              "parentUid": "root",
+              "children": []
+          }
+      ],
+      "mapper": {
+          "d1ef7c2a-0012-4324-9abb-bc9ee78a185e": {
+              "settings": {
+                  "formDefinition": [
+                      {
+                          "formKey": "wysiwyg-settings",
+                          "children": [
+                              {
+                                  "formKey": "wysiwyg-editor",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "content",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "selectorType": "topLevel",
+                  "form": null,
+                  "items": [],
+                  "title": "Default"
+              }
+          },
+          "b18109db-d73a-4341-89f8-fec35fc85a61": {}
+      },
+      "model": {
+          "d1ef7c2a-0012-4324-9abb-bc9ee78a185e": {
+              "settings": {
+                  "title": "WYSIWYG",
+                  "content": "[field.b18109db-d73a-4341-89f8-fec35fc85a61]"
+              }
+          },
+          "b18109db-d73a-4341-89f8-fec35fc85a61": {
+              "settings": {
+                  "type": "cohWysiwyg",
+                  "title": "Body",
+                  "schema": {
+                      "type": "object"
+                  },
+                  "machineName": "se-body",
+                  "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "textFormat": "cohesion"
+                  }
+              }
+          }
+      },
+      "previewModel": {
+          "b18109db-d73a-4341-89f8-fec35fc85a61": {},
+          "d1ef7c2a-0012-4324-9abb-bc9ee78a185e": {
+              "settings": {
+                  "title": "WYSIWYG",
+                  "content": {
+                      "textFormat": "cohesion"
+                  }
+              }
+          }
+      },
+      "variableFields": {
+          "b18109db-d73a-4341-89f8-fec35fc85a61": [],
+          "d1ef7c2a-0012-4324-9abb-bc9ee78a185e": [
+              "settings.content"
+          ]
+      },
+      "disabledNodes": [],
+      "meta": {
+          "fieldHistory": [
+              {
+                  "uuid": "b18109db-d73a-4341-89f8-fec35fc85a61",
+                  "type": "form-wysiwyg",
+                  "machineName": "se-body"
+              }
+          ]
+      }
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: true
+selectable: true
+category: cpt_cat_elements
+preview_image: ''
+has_quick_edit: null
+entity_type_access: {  }
+bundle_access: {  }
+twig_template: component--cohesion-cpt-simple-wysiwyg
+weight: 0
