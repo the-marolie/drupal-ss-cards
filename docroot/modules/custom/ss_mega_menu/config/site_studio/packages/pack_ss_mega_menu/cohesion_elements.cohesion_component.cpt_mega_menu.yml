@@ -1,0 +1,271 @@
+uuid: 875bba70-dc02-4ccf-91a0-ddb9475a5e3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - cohesion_elements.cohesion_component_category.cpt_cat_custom_components
+    - cohesion_templates.cohesion_menu_templates.menu_tpl_mega_menu_with_cards
+    - cohesion_website_settings.cohesion_color.black
+label: 'Mega menu'
+id: cpt_mega_menu
+json_values: |
+  {
+      "canvas": [
+          {
+              "type": "container",
+              "uid": "container",
+              "title": "Container",
+              "status": {
+                  "collapsed": false
+              },
+              "iconColor": "layout",
+              "uuid": "e1339699-f879-453d-957b-a4e729ae8701",
+              "parentUid": "root",
+              "children": [
+                  {
+                      "type": "item",
+                      "uid": "drupal-menu",
+                      "title": "Menu",
+                      "status": {
+                          "collapsed": true
+                      },
+                      "iconColor": "drupal",
+                      "uuid": "bcb847cc-e08b-4110-8943-726fbf19cd62",
+                      "parentUid": "container",
+                      "children": []
+                  }
+              ]
+          }
+      ],
+      "componentForm": [],
+      "mapper": {
+          "e1339699-f879-453d-957b-a4e729ae8701": {
+              "settings": {
+                  "formDefinition": [
+                      {
+                          "formKey": "container-settings",
+                          "children": [
+                              {
+                                  "formKey": "container-width",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "width",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "common-link-animation",
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ],
+                                  "activeFields": [
+                                      {
+                                          "name": "animationType",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "common-link-modifier",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "modifierType",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "container-style",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "customStyle",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "selectorType": "topLevel",
+                  "form": null,
+                  "items": [],
+                  "title": "Default"
+              },
+              "styles": {
+                  "formDefinition": [
+                      {
+                          "formKey": "background",
+                          "children": [
+                              {
+                                  "formKey": "background-color",
+                                  "activeFields": [
+                                      {
+                                          "name": "background-color",
+                                          "active": true
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ]
+                              }
+                          ]
+                      },
+                      {
+                          "formKey": "layout",
+                          "children": [
+                              {
+                                  "formKey": "display",
+                                  "activeFields": [
+                                      {
+                                          "name": "display",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "visibility",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "overflow",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "overflow-x",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "overflow-y",
+                                          "active": true
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "iconName": "television",
+                                          "name": "xl"
+                                      },
+                                      {
+                                          "name": "sm"
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "title": "Default",
+                  "selectorType": "topLevel",
+                  "items": []
+              }
+          },
+          "bcb847cc-e08b-4110-8943-726fbf19cd62": {
+              "settings": {
+                  "formDefinition": [
+                      {
+                          "formKey": "drupal-menu-settings",
+                          "children": [
+                              {
+                                  "formKey": "drupal-menu-menu",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "content",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "drupal-menu-template",
+                                  "breakpoints": [],
+                                  "activeFields": []
+                              }
+                          ]
+                      }
+                  ],
+                  "selectorType": "topLevel",
+                  "form": null,
+                  "items": [],
+                  "title": "Default"
+              }
+          }
+      },
+      "model": {
+          "e1339699-f879-453d-957b-a4e729ae8701": {
+              "settings": {
+                  "width": "fluid",
+                  "title": "Container",
+                  "customStyle": [
+                      {}
+                  ]
+              },
+              "styles": {
+                  "settings": {
+                      "topLevel": "Default"
+                  },
+                  "styles": {
+                      "xl": {
+                          "background-color": {
+                              "value": {
+                                  "link": true,
+                                  "value": {
+                                      "hex": "#000000",
+                                      "rgba": "rgba(0, 0, 0, 1)"
+                                  },
+                                  "uid": "black",
+                                  "name": "Black",
+                                  "class": ".coh-color-black",
+                                  "variable": "$coh-color-black",
+                                  "inuse": true
+                              }
+                          }
+                      },
+                      "sm": {
+                          "display": {
+                              "value": "none"
+                          }
+                      }
+                  }
+              }
+          },
+          "bcb847cc-e08b-4110-8943-726fbf19cd62": {
+              "settings": {
+                  "title": "Menu",
+                  "settings": {
+                      "menu": {
+                          "id": "mega-menu",
+                          "template": "menu_tpl_mega_menu_with_cards"
+                      }
+                  }
+              }
+          }
+      },
+      "previewModel": {
+          "bcb847cc-e08b-4110-8943-726fbf19cd62": {},
+          "e1339699-f879-453d-957b-a4e729ae8701": {}
+      },
+      "variableFields": {
+          "bcb847cc-e08b-4110-8943-726fbf19cd62": [],
+          "e1339699-f879-453d-957b-a4e729ae8701": []
+      },
+      "disabledNodes": [],
+      "meta": {
+          "fieldHistory": []
+      }
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0041
+locked: false
+modified: true
+selectable: true
+category: cpt_cat_custom_components
+preview_image: ''
+has_quick_edit: null
+entity_type_access: {  }
+bundle_access: {  }
+twig_template: component--cohesion-cpt-mega-menu
+weight: 0

@@ -1,0 +1,8 @@
+name: Mega menu with cards
+type: module
+description: 'Provides a mega menu with site studio components'
+core_version_requirement: ^9 || ^10
+package: 'Site Studio Cards'
+dependencies:
+  - cohesion:cohesion
+  - drupal:menu_item_extras
